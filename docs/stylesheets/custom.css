@@ -1,0 +1,586 @@
+/* =========================================================================
+   Brasil Participativo SaaS — tema baseado no Design System gov.br
+   Tokens: https://www.gov.br/ds/fundamentos-visuais/cores
+   ========================================================================= */
+
+:root {
+  /* Tokens do Design System gov.br */
+  --blue-warm-vivid-90: #071d41;
+  --blue-warm-vivid-80: #0c326f;
+  --blue-warm-vivid-70: #1351b4;
+  --blue-warm-vivid-60: #155bcb;
+  --blue-warm-vivid-50: #2670e8;
+  --blue-warm-vivid-30: #81aefc;
+  --blue-warm-vivid-20: #adcdff;
+  --blue-warm-vivid-10: #d4e5ff;
+  --blue-warm-vivid-5: #edf5ff;
+  --blue-warm-20: #c5d4eb;
+  --gray-80: #333333;
+  --gray-60: #636363;
+  --gray-20: #cccccc;
+  --gray-10: #e6e6e6;
+  --gray-5: #f0f0f0;
+  --gray-2: #f8f8f8;
+  --green-cool-vivid-50: #168821;
+  --red-vivid-50: #e52207;
+  --yellow-vivid-20: #ffcd07;
+  --surface-rounder-sm: 4px;
+  --surface-rounder-md: 8px;
+  --surface-shadow-sm: 0 1px 6px rgba(51, 51, 51, 0.16);
+  --surface-shadow-md: 0 3px 6px rgba(51, 51, 51, 0.16);
+
+  /* Fontes */
+  --md-text-font: "Rawline", "Raleway", sans-serif;
+  --md-code-font: "JetBrains Mono", monospace;
+}
+
+/* Cores primárias do Material mapeadas para o padrão gov.br */
+:root > * {
+  --md-primary-fg-color: var(--blue-warm-vivid-70);
+  --md-primary-fg-color--light: var(--blue-warm-vivid-50);
+  --md-primary-fg-color--dark: var(--blue-warm-vivid-80);
+  --md-primary-bg-color: #ffffff;
+  --md-accent-fg-color: var(--blue-warm-vivid-50);
+  --md-typeset-a-color: var(--blue-warm-vivid-70);
+  --md-default-fg-color: var(--gray-80);
+  --md-footer-bg-color: var(--blue-warm-vivid-90);
+  --md-footer-bg-color--dark: #051530;
+  --bp-header-bg: #ffffff;
+  --bp-header-fg: var(--blue-warm-vivid-70);
+  --bp-header-text: var(--gray-80);
+  --bp-header-border: var(--gray-10);
+  --bp-surface: #ffffff;
+  --bp-surface-alt: var(--gray-2);
+  --bp-table-head: var(--blue-warm-vivid-5);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 218;
+  --md-default-bg-color: #0b1a33;
+  --md-default-fg-color: rgba(255, 255, 255, 0.87);
+  --md-code-bg-color: #0f2342;
+  --md-typeset-a-color: var(--blue-warm-vivid-30);
+  --md-accent-fg-color: var(--blue-warm-vivid-20);
+  --bp-header-bg: var(--blue-warm-vivid-90);
+  --bp-header-fg: #ffffff;
+  --bp-header-text: #ffffff;
+  --bp-header-border: var(--blue-warm-vivid-80);
+  --bp-surface: #0f2342;
+  --bp-surface-alt: #0f2342;
+  --bp-table-head: var(--blue-warm-vivid-80);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ------------------------------------------------------------------ Cabeçalho
+   DS gov.br: cabeçalho claro, ícones e links em azul, sombra discreta */
+.md-header {
+  background-color: var(--bp-header-bg);
+  color: var(--bp-header-fg);
+  box-shadow: var(--surface-shadow-sm);
+}
+.md-header--shadow {
+  box-shadow: var(--surface-shadow-md);
+}
+.md-header__title {
+  color: var(--bp-header-text);
+  font-weight: 600;
+}
+.md-header__button.md-logo {
+  color: var(--bp-header-fg);
+}
+.md-header__button,
+.md-header__source,
+.md-source {
+  color: var(--bp-header-fg);
+}
+
+/* Busca sobre fundo claro */
+.md-search__form {
+  background-color: var(--gray-5);
+  border-radius: 100em;
+}
+.md-search__form:hover {
+  background-color: var(--gray-10);
+}
+.md-search__input,
+.md-search__input::placeholder,
+.md-search__icon {
+  color: var(--gray-60);
+}
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+[data-md-color-scheme="slate"] .md-search__input,
+[data-md-color-scheme="slate"] .md-search__input::placeholder,
+[data-md-color-scheme="slate"] .md-search__icon {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Abas: estilo br-tab (texto escuro, ativa com barra azul) */
+.md-tabs {
+  background-color: var(--bp-header-bg);
+  color: var(--bp-header-text);
+  border-bottom: 1px solid var(--bp-header-border);
+}
+.md-tabs__link {
+  opacity: 1;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--bp-header-text);
+}
+.md-tabs__item {
+  height: 2.6rem;
+}
+.md-tabs__item--active {
+  box-shadow: inset 0 -4px 0 var(--bp-header-fg);
+}
+.md-tabs__item--active .md-tabs__link {
+  color: var(--bp-header-fg);
+  font-weight: 700;
+}
+.md-tabs__link:hover {
+  color: var(--blue-warm-vivid-50);
+}
+
+/* Barra de aviso */
+.md-banner {
+  background-color: var(--blue-warm-vivid-70);
+  color: #ffffff;
+}
+.md-banner a {
+  color: #ffffff;
+  text-decoration: underline;
+  margin-left: 0.4rem;
+}
+.md-banner__button {
+  color: #ffffff;
+}
+
+/* ------------------------------------------------------------------ Navegação lateral */
+.md-nav__title {
+  font-weight: 700;
+}
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 0.62rem;
+  color: var(--md-default-fg-color--light);
+}
+.md-nav__link--active {
+  font-weight: 700;
+}
+
+/* ------------------------------------------------------------------ Tipografia */
+.md-typeset h1 {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  letter-spacing: -0.01em;
+}
+.md-typeset h2 {
+  font-weight: 700;
+  margin-top: 2em;
+}
+.md-typeset h3 {
+  font-weight: 600;
+}
+.md-typeset a {
+  text-decoration: none;
+}
+.md-typeset a:hover {
+  text-decoration: underline;
+}
+.highlight code {
+  font-size: 0.85em;
+}
+
+/* ------------------------------------------------------------------ Botões (br-button, pílula) */
+.md-typeset .md-button {
+  border-radius: 100em;
+  border: 1px solid var(--blue-warm-vivid-70);
+  color: var(--blue-warm-vivid-70);
+  font-weight: 600;
+  padding: 0.5em 1.4em;
+  transition: background-color 0.15s ease;
+}
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--blue-warm-vivid-5);
+  border-color: var(--blue-warm-vivid-70);
+  color: var(--blue-warm-vivid-70);
+  text-decoration: none;
+}
+.md-typeset .md-button--primary {
+  background-color: var(--blue-warm-vivid-70);
+  color: #ffffff;
+}
+.md-typeset .md-button--primary:hover,
+.md-typeset .md-button--primary:focus {
+  background-color: var(--blue-warm-vivid-80);
+  border-color: var(--blue-warm-vivid-80);
+  color: #ffffff;
+}
+[data-md-color-scheme="slate"] .md-typeset .md-button {
+  border-color: var(--blue-warm-vivid-30);
+  color: var(--blue-warm-vivid-30);
+}
+[data-md-color-scheme="slate"] .md-typeset .md-button--primary {
+  background-color: var(--blue-warm-vivid-30);
+  color: var(--blue-warm-vivid-90);
+}
+.md-typeset .md-button svg {
+  width: 1.1em;
+  height: 1.1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+}
+
+/* ------------------------------------------------------------------ Cards (br-card) */
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border: 1px solid var(--gray-10);
+  border-radius: var(--surface-rounder-md);
+  background-color: var(--bp-surface);
+  box-shadow: var(--surface-shadow-sm);
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.md-typeset .grid.cards > ul > li:hover,
+.md-typeset .grid > .card:hover {
+  border-color: var(--blue-warm-vivid-30);
+  box-shadow: var(--surface-shadow-md);
+}
+.md-typeset .grid.cards .lg {
+  color: var(--blue-warm-vivid-70);
+}
+[data-md-color-scheme="slate"] .md-typeset .grid.cards > ul > li {
+  border-color: var(--blue-warm-vivid-80);
+}
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .lg {
+  color: var(--blue-warm-vivid-30);
+}
+
+/* ------------------------------------------------------------------ Mensagens (br-message) */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: var(--surface-rounder-sm);
+  border-width: 0 0 0 4px;
+  box-shadow: none;
+  font-size: 0.72rem;
+}
+.md-typeset .admonition.note, .md-typeset details.note,
+.md-typeset .admonition.info, .md-typeset details.info,
+.md-typeset .admonition.abstract, .md-typeset details.abstract,
+.md-typeset .admonition.question, .md-typeset details.question {
+  border-color: var(--blue-warm-vivid-60);
+  background-color: var(--blue-warm-vivid-5);
+}
+.md-typeset .note > .admonition-title, .md-typeset .note > summary,
+.md-typeset .info > .admonition-title, .md-typeset .info > summary,
+.md-typeset .abstract > .admonition-title, .md-typeset .abstract > summary,
+.md-typeset .question > .admonition-title, .md-typeset .question > summary {
+  background-color: transparent;
+}
+.md-typeset .note > .admonition-title::before, .md-typeset .note > summary::before,
+.md-typeset .info > .admonition-title::before, .md-typeset .info > summary::before,
+.md-typeset .abstract > .admonition-title::before, .md-typeset .abstract > summary::before,
+.md-typeset .question > .admonition-title::before, .md-typeset .question > summary::before {
+  background-color: var(--blue-warm-vivid-60);
+}
+.md-typeset .admonition.tip, .md-typeset details.tip,
+.md-typeset .admonition.success, .md-typeset details.success {
+  border-color: var(--green-cool-vivid-50);
+  background-color: #e3f5e1;
+}
+.md-typeset .tip > .admonition-title, .md-typeset .tip > summary,
+.md-typeset .success > .admonition-title, .md-typeset .success > summary {
+  background-color: transparent;
+}
+.md-typeset .tip > .admonition-title::before, .md-typeset .tip > summary::before,
+.md-typeset .success > .admonition-title::before, .md-typeset .success > summary::before {
+  background-color: var(--green-cool-vivid-50);
+}
+.md-typeset .admonition.warning, .md-typeset details.warning {
+  border-color: var(--yellow-vivid-20);
+  background-color: #fff5c2;
+}
+.md-typeset .warning > .admonition-title, .md-typeset .warning > summary {
+  background-color: transparent;
+}
+.md-typeset .warning > .admonition-title::before, .md-typeset .warning > summary::before {
+  background-color: #b38c00;
+}
+.md-typeset .admonition.danger, .md-typeset details.danger,
+.md-typeset .admonition.failure, .md-typeset details.failure {
+  border-color: var(--red-vivid-50);
+  background-color: #fde0db;
+}
+.md-typeset .danger > .admonition-title, .md-typeset .danger > summary,
+.md-typeset .failure > .admonition-title, .md-typeset .failure > summary {
+  background-color: transparent;
+}
+.md-typeset .danger > .admonition-title::before, .md-typeset .danger > summary::before,
+.md-typeset .failure > .admonition-title::before, .md-typeset .failure > summary::before {
+  background-color: var(--red-vivid-50);
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset details {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+/* ------------------------------------------------------------------ Tabelas (br-table) */
+.md-typeset table:not([class]) {
+  border-radius: var(--surface-rounder-sm);
+  border: 1px solid var(--gray-10);
+  box-shadow: none;
+  font-size: 0.7rem;
+}
+.md-typeset table:not([class]) th {
+  background-color: var(--bp-table-head);
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+  border-bottom: 2px solid var(--blue-warm-vivid-70);
+}
+.md-typeset table:not([class]) tbody tr:hover {
+  background-color: var(--bp-surface-alt);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) {
+  border-color: var(--blue-warm-vivid-80);
+}
+
+/* ------------------------------------------------------------------ Abas de conteúdo */
+.md-typeset .tabbed-labels > label {
+  font-weight: 600;
+}
+.md-typeset .tabbed-labels > label:hover {
+  color: var(--blue-warm-vivid-50);
+}
+
+/* ------------------------------------------------------------------ Diagramas */
+.md-typeset .mermaid {
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------ Rodapé (br-footer) */
+.md-footer {
+  background-color: var(--blue-warm-vivid-90);
+}
+.md-footer-meta {
+  background-color: #051530;
+}
+.md-footer__link:hover,
+.md-footer-meta a:hover {
+  color: var(--blue-warm-vivid-20);
+}
+
+/* ------------------------------------------------------------------ Rodapé de página (feedback) */
+.bp-page-footer {
+  margin-top: 3rem;
+  padding: 1.2rem 1.4rem;
+  border-top: 1px solid var(--gray-10);
+  background-color: var(--bp-surface-alt);
+  border-radius: var(--surface-rounder-md);
+}
+.bp-page-footer p {
+  margin: 0.4rem 0;
+}
+.bp-page-footer__question {
+  font-weight: 700;
+}
+.bp-page-footer__actions .md-button {
+  margin: 0.2rem 0.4rem 0.2rem 0;
+  font-size: 0.7rem;
+}
+.bp-page-footer__note {
+  font-size: 0.65rem;
+  color: var(--md-default-fg-color--light);
+}
+[data-md-color-scheme="slate"] .bp-page-footer {
+  border-color: var(--blue-warm-vivid-80);
+}
+
+/* ------------------------------------------------------------------ Página inicial */
+.bp-hero {
+  margin: -0.5rem 0 2rem;
+  padding: 2.4rem 2rem;
+  border-radius: var(--surface-rounder-md);
+  background: linear-gradient(135deg, var(--blue-warm-vivid-90) 0%, var(--blue-warm-vivid-70) 100%);
+  color: #ffffff;
+}
+.md-typeset .bp-hero h1 {
+  color: #ffffff;
+  margin: 0 0 0.6rem;
+  font-size: 2rem;
+}
+.bp-hero p {
+  font-size: 0.95rem;
+  max-width: 42rem;
+  opacity: 0.95;
+}
+.md-typeset .bp-hero .md-button {
+  border-color: #ffffff;
+  color: #ffffff;
+  margin: 0.4rem 0.6rem 0 0;
+}
+.md-typeset .bp-hero .md-button:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.md-typeset .bp-hero .md-button--primary {
+  background-color: #ffffff;
+  color: var(--blue-warm-vivid-70);
+}
+.md-typeset .bp-hero .md-button--primary:hover {
+  background-color: var(--blue-warm-vivid-5);
+  color: var(--blue-warm-vivid-80);
+}
+
+.bp-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: 0.8rem;
+  margin: 1rem 0 2rem;
+}
+.bp-stats > div {
+  padding: 0.9rem 1rem;
+  border-radius: var(--surface-rounder-md);
+  background-color: var(--bp-surface-alt);
+  border-left: 4px solid var(--blue-warm-vivid-70);
+}
+.bp-stats strong {
+  display: block;
+  font-size: 1.3rem;
+  color: var(--blue-warm-vivid-70);
+}
+[data-md-color-scheme="slate"] .bp-stats strong {
+  color: var(--blue-warm-vivid-30);
+}
+.bp-stats span {
+  font-size: 0.68rem;
+  color: var(--md-default-fg-color--light);
+}
+
+@media screen and (max-width: 44.9375em) {
+  .bp-hero {
+    padding: 1.6rem 1.2rem;
+  }
+  .md-typeset .bp-hero h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Ajustes da página inicial */
+.bp-hero {
+  clear: both;
+}
+.md-typeset .bp-hero a:not(.md-button) {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------ Rodapé institucional
+   Inspirado no rodapé do LabLivre (lablivre.unb.br): logos em branco sobre fundo escuro */
+.bp-inst {
+  background-color: var(--blue-warm-vivid-90);
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.bp-inst__inner {
+  padding: 2.2rem 0.8rem 1.6rem;
+}
+.bp-inst__grupos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem 3rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.bp-inst__rotulo {
+  margin: 0 0 0.7rem;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--blue-warm-vivid-20);
+}
+.bp-inst__marcas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.4rem 2rem;
+}
+.bp-inst__marca {
+  display: inline-flex;
+  align-items: center;
+  color: #ffffff;
+  transition: opacity 0.2s ease;
+}
+.bp-inst__marca:hover {
+  opacity: 0.75;
+  color: #ffffff;
+}
+.bp-inst__logo {
+  width: auto;
+  max-width: 100%;
+  display: block;
+}
+.bp-inst__logo--invert {
+  filter: brightness(0) invert(1);
+}
+.bp-inst__assinatura {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.8rem;
+  border-left: 3px solid var(--yellow-vivid-20);
+  line-height: 1.3;
+}
+.bp-inst__assinatura strong {
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.bp-inst__assinatura span {
+  font-size: 0.64rem;
+  color: var(--blue-warm-vivid-10);
+}
+.bp-inst__info {
+  padding-top: 1.1rem;
+  font-size: 0.66rem;
+  color: var(--blue-warm-vivid-10);
+}
+.bp-inst__info p {
+  margin: 0.25rem 0;
+}
+.bp-inst__info a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.bp-inst__info a:hover {
+  color: var(--blue-warm-vivid-20);
+}
+@media print {
+  .bp-inst {
+    display: none;
+  }
+}
+
+.bp-inst__licenca {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.8rem !important;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.bp-inst__cc {
+  display: inline-flex;
+  gap: 0.15rem;
+  flex-shrink: 0;
+}
+.bp-inst__cc svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  fill: #ffffff;
+}

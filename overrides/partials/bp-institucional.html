@@ -1,0 +1,53 @@
+{#- Bloco institucional do rodapé. Os logos e textos vêm de extra.institucional no mkdocs.yml. -#}
+{% set inst = config.extra.institucional %}
+{% macro marca(item) %}
+  <a class="bp-inst__marca" href="{{ item.url }}" target="_blank" rel="noopener" title="{{ item.name }}">
+    {% if item.image %}
+      <img src="{{ item.image | url }}" alt="{{ item.name }}"
+           class="bp-inst__logo{% if item.invert %} bp-inst__logo--invert{% endif %}"
+           style="height: {{ item.height or 44 }}px">
+    {% else %}
+      <span class="bp-inst__assinatura">
+        <strong>{{ item.name }}</strong>
+        {% if item.sub %}<span>{{ item.sub }}</span>{% endif %}
+      </span>
+    {% endif %}
+  </a>
+{% endmacro %}
+{% if inst %}
+<div class="bp-inst">
+  <div class="bp-inst__inner md-grid">
+    <div class="bp-inst__grupos">
+      {% for grupo in inst.grupos %}
+        <div class="bp-inst__grupo">
+          <p class="bp-inst__rotulo">{{ grupo.titulo }}</p>
+          <div class="bp-inst__marcas">
+            {% for item in grupo.itens %}{{ marca(item) }}{% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="bp-inst__info">
+      {% if inst.texto %}<p class="bp-inst__texto">{{ inst.texto }}</p>{% endif %}
+      {% if inst.contatos %}
+        <p class="bp-inst__contatos">
+          {% for c in inst.contatos %}<a href="mailto:{{ c }}">{{ c }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+        </p>
+      {% endif %}
+      {% if inst.links %}
+        <p class="bp-inst__links">
+          {% for l in inst.links %}<a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.nome }}</a>{% if not loop.last %} · {% endif %}{% endfor %}
+        </p>
+      {% endif %}
+      {% if inst.licenca %}
+        <p class="bp-inst__licenca">
+          <a href="{{ inst.licenca.url }}" target="_blank" rel="license noopener" class="bp-inst__cc" title="CC BY 4.0">
+            {% include ".icons/fontawesome/brands/creative-commons.svg" %}{% include ".icons/fontawesome/brands/creative-commons-by.svg" %}
+          </a>
+          <span>{{ inst.licenca.texto }}</span>
+        </p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endif %}

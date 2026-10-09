@@ -1,0 +1,262 @@
+site_name: Brasil Participativo SaaS — Documentação Técnica
+site_url: https://rochacarla.github.io/doc-saas-bp/
+site_author: LabLivre/UnB
+site_description: >-
+  Documentação técnica do Brasil Participativo SaaS: o Participa, plataforma
+  multi-organização sobre o Decidim, e a participação multicanal (API OP-BP).
+
+# Repositório desta documentação (botões de edição e issues)
+repo_name: RochaCarla/doc-saas-bp
+repo_url: https://github.com/RochaCarla/doc-saas-bp
+edit_uri: edit/main/docs/
+docs_dir: docs
+# Decisões de arquitetura da documentação: versionadas no repositório, fora do site
+exclude_docs: |
+  adr/
+
+copyright: © 2026 LabLivre/UnB · Conteúdo sob CC BY 4.0 · Participa é software livre (AGPLv3)
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: pt-BR
+  favicon: assets/favicon.svg
+  icon:
+    logo: material/forum
+    repo: fontawesome/brands/github
+    edit: material/file-edit-outline
+    view: material/file-eye-outline
+  font: false
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+extra:
+  # Rodapé institucional (overrides/partials/bp-institucional.html).
+  institucional:
+    grupos:
+      - titulo: Realização
+        itens:
+          - name: LabLivre — Laboratório de Competência em Software Livre
+            image: assets/logos/lab-livre-white.png
+            url: https://lablivre.unb.br
+            height: 48
+          - name: Universidade de Brasília
+            image: assets/logos/unb-logo.png
+            url: https://www.unb.br
+            height: 42
+            invert: true
+      - titulo: Parceria
+        itens:
+          - name: Secretaria Nacional de Participação Social
+            sub: Secretaria-Geral da Presidência da República
+            url: https://www.gov.br/secretariageral/
+    texto: >-
+      Documentação produzida pelo LabLivre/UnB no âmbito do Termo de Execução Descentralizada
+      com a Secretaria Nacional de Participação Social.
+    licenca:
+      texto: >-
+        Exceto onde indicado, o conteúdo desta documentação está licenciado sob a
+        Creative Commons Atribuição 4.0 Internacional (CC BY 4.0). Logos e marcas
+        institucionais não estão incluídos na licença.
+      url: https://creativecommons.org/licenses/by/4.0/deed.pt-br
+    contatos:
+      - decidim@unb.br
+    links:
+      - nome: LabLivre
+        url: https://lablivre.unb.br
+      - nome: Código do Participa
+        url: https://gitlab.com/lappis-unb/decidimbr/participa
+      - nome: Código da participação multicanal
+        url: https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation
+      - nome: Documentação do Brasil Participativo
+        url: https://lablivre-unb.github.io/doc-bp/
+      - nome: Baixar PDF
+        url: https://rochacarla.github.io/doc-saas-bp/documentacao-brasil-participativo-saas.pdf
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/lappis-unb/decidimbr/participa
+      name: Código do Participa
+    - icon: fontawesome/brands/github
+      link: https://github.com/RochaCarla/doc-saas-bp
+      name: Código desta documentação
+
+extra_css:
+  - https://cdngovbr-ds.estaleiro.serpro.gov.br/design-system/fonts/rawline/css/rawline.css
+  - https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap
+  - stylesheets/custom.css
+  - stylesheets/print.css
+
+plugins:
+  - search:
+      lang: pt
+      separator: '[\s\u200b\-_,:!=\[\]()"\\`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  # Página única /print_page/ usada para gerar o PDF (deve ser o último plugin)
+  - print-site:
+      print_page_title: Brasil Participativo SaaS — Documentação completa
+      add_to_navigation: false
+      add_cover_page: true
+      cover_page_template: overrides/print/capa.tpl
+      add_table_of_contents: true
+      toc_title: Sumário
+      toc_depth: 2
+      enumerate_headings: true
+      enumerate_headings_depth: 2
+      enumerate_figures: false
+      add_full_urls: false
+      add_print_site_banner: false
+      path_to_pdf: https://rochacarla.github.io/doc-saas-bp/documentacao-brasil-participativo-saas.pdf
+      exclude:
+        - index.md
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+
+nav:
+  - Início:
+    - index.md
+    - Trilhas de aprendizado: visao-geral/trilhas.md
+    - Novidades: novidades.md
+  - Documentação:
+    - Visão Geral:
+      - Sobre o Brasil Participativo SaaS: visao-geral/sobre.md
+      - Arquitetura do sistema: visao-geral/arquitetura.md
+      - Glossário: visao-geral/glossario.md
+    - Participa:
+      - participa/index.md
+      - Arquitetura: participa/arquitetura.md
+      - Multi-organização: participa/multi-organizacao.md
+      - Módulos e gems: participa/modulos.md
+      - Engine decidim-govbr: participa/govbr.md
+      - Chatbot: participa/chatbot.md
+      - Órgãos e setores: participa/orgaos-setores.md
+      - Participação efêmera: participa/participacao-efemera.md
+      - Texto participativo: participa/texto-participativo.md
+      - Modelos de processo: participa/modelos.md
+      - Customização do Decidim: participa/customizacao.md
+      - Desenvolvimento: participa/desenvolvimento.md
+      - Implantação: participa/implantacao.md
+      - Configuração: participa/configuracao.md
+      - Banco de Dados:
+        - participa/banco-de-dados/index.md
+        - Consultas úteis: participa/banco-de-dados/consultas.md
+        - Organização, usuários e autenticação: participa/banco-de-dados/organizacao-usuarios.md
+        - Processos e instâncias: participa/banco-de-dados/processos-instancias.md
+        - Órgãos e setores: participa/banco-de-dados/orgaos-setores.md
+        - Conferências, iniciativas e eleições: participa/banco-de-dados/outros-espacos.md
+        - Componentes e conteúdo: participa/banco-de-dados/componentes-conteudo.md
+        - Propostas e texto participativo: participa/banco-de-dados/propostas.md
+        - Reuniões: participa/banco-de-dados/reunioes.md
+        - Formulários: participa/banco-de-dados/formularios.md
+        - Comentários e interação: participa/banco-de-dados/interacao.md
+        - Moderação e auditoria: participa/banco-de-dados/moderacao-auditoria.md
+        - Outros módulos: participa/banco-de-dados/outros-modulos.md
+        - Chatbot: participa/banco-de-dados/chatbot.md
+    - Participação multicanal:
+      - multicanal/index.md
+      - Arquitetura: multicanal/arquitetura.md
+      - Canais: multicanal/canais.md
+      - Roteiros de conversa: multicanal/roteiros.md
+      - Votação e identificação: multicanal/votacao.md
+      - Integração com o Decidim: multicanal/integracao.md
+      - Painel e app: multicanal/painel.md
+      - Modelo de dados: multicanal/dados.md
+      - Configuração: multicanal/configuracao.md
+      - Implantação e desenvolvimento: multicanal/implantacao.md
+  - Transferência:
+    - transferencia/index.md
+    - Inventário de ativos: transferencia/inventario.md
+    - Operação e continuidade: transferencia/operacao.md
+    - Segurança e LGPD: transferencia/seguranca.md
+    - APIs: transferencia/apis.md
+    - Versionamento e release: transferencia/release.md
+    - Testes e qualidade: transferencia/testes.md
+    - Plano de atualização: transferencia/atualizacao.md
+    - Inventário de sobrescritas: transferencia/sobrescritas.md
+    - Decisões de arquitetura: transferencia/decisoes.md
+    - Repasse de conhecimento: transferencia/repasse.md
+  - Inovação:
+    - inovacao/index.md
+    - Participa: inovacao/participa.md
+    - Participação multicanal: inovacao/multicanal.md
+  - Estatísticas:
+    - estatisticas/index.md
+    - Participa:
+      - estatisticas/participa/index.md
+      - Commits: estatisticas/participa/commits.md
+      - Merge Requests: estatisticas/participa/merge-requests.md
+      - Contribuições: estatisticas/participa/contribuicoes.md
+      - Qualidade: estatisticas/participa/qualidade.md
+    - Participação multicanal:
+      - estatisticas/multicanal/index.md
+      - Commits: estatisticas/multicanal/commits.md
+      - Merge Requests: estatisticas/multicanal/merge-requests.md
+      - Contribuições: estatisticas/multicanal/contribuicoes.md
+      - Qualidade: estatisticas/multicanal/qualidade.md
+  - Sobre:
+    - sobre/index.md
+    - Uso de IA: sobre/uso-de-ia.md

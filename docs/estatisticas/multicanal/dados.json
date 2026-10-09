@@ -1,0 +1,383 @@
+{
+  "project": {
+    "star_count": 0,
+    "forks_count": 1,
+    "default_branch": "main",
+    "created_at": "2026-03-16T14:59:49.733Z"
+  },
+  "languages": {
+    "Python": 59.86,
+    "TSX": 18.47,
+    "HTML": 13.72,
+    "TypeScript": 4.36,
+    "CSS": 2.68
+  },
+  "commits": {
+    "total": 276,
+    "non_merge": 269,
+    "merges": 7,
+    "first_commit": "2026-03-17T00:00:00-03:00",
+    "series_first": "2026-03-17T00:00:00-03:00",
+    "recent": 269,
+    "previous": 0,
+    "by_year": {
+      "2026": 269
+    },
+    "by_month": {
+      "2026-09": 6,
+      "2026-08": 9,
+      "2026-07": 4,
+      "2026-06": 139,
+      "2026-05": 88,
+      "2026-04": 9,
+      "2026-03": 14
+    },
+    "cc_by_year": {
+      "2026": 99.25650557620818
+    },
+    "cc_recent": 99.25650557620818,
+    "types_recent": {
+      "fix": 61,
+      "feat": 150,
+      "refactor": 17,
+      "test": 9,
+      "style": 13,
+      "chore": 9,
+      "migrate": 1,
+      "docs": 5,
+      "security": 1,
+      "fora do padrão": 2,
+      "perf": 1
+    },
+    "reverts_by_year": {},
+    "weekday_recent": {
+      "0": 42,
+      "5": 21,
+      "3": 93,
+      "1": 23,
+      "4": 44,
+      "2": 23,
+      "6": 23
+    },
+    "hotspots": [
+      [
+        "api/tests/test_flow_engine.py",
+        36
+      ],
+      [
+        "api/scripts/flow_engine.py",
+        30
+      ],
+      [
+        "api/app/routes/admin.py",
+        28
+      ],
+      [
+        "api/app/config.py",
+        24
+      ],
+      [
+        "api/tests/test_conversation_orchestrator.py",
+        20
+      ],
+      [
+        "api/app/services/conversation_orchestrator.py",
+        19
+      ],
+      [
+        "api/app/services/admin_service.py",
+        17
+      ],
+      [
+        "api/app/services/business_event_handler.py",
+        16
+      ],
+      [
+        "api/tests/test_business_event_handler.py",
+        15
+      ],
+      [
+        "api/uv.lock",
+        15
+      ],
+      [
+        "api/scripts/flows/vila-carioca.yml",
+        15
+      ],
+      [
+        "api/.env.example",
+        14
+      ],
+      [
+        "api/app/services/admin_processes_service.py",
+        14
+      ],
+      [
+        "api/app/models/participation_process.py",
+        14
+      ],
+      [
+        "front/apps/admin/src/routes/ProcessDetail.tsx",
+        14
+      ]
+    ]
+  },
+  "contributors": {
+    "total": 3,
+    "recent": 3,
+    "by_year": [
+      {
+        "year": 2026,
+        "active": 3,
+        "new": 3,
+        "retained_pct": null
+      }
+    ],
+    "bus_factor_all": 1,
+    "bus_factor_recent": 1,
+    "top_all": [
+      [
+        "Eduardo Nunes",
+        264,
+        98.14126394052045
+      ],
+      [
+        "David Carlos",
+        4,
+        1.486988847583643
+      ],
+      [
+        "Thais Rebouças de Araujo",
+        1,
+        0.37174721189591076
+      ]
+    ],
+    "top_recent": [
+      [
+        "Eduardo Nunes",
+        264,
+        98.14126394052045
+      ],
+      [
+        "David Carlos",
+        4,
+        1.486988847583643
+      ],
+      [
+        "Thais Rebouças de Araujo",
+        1,
+        0.37174721189591076
+      ]
+    ],
+    "new_recent": 3
+  },
+  "mrs": {
+    "total": 11,
+    "states": {
+      "merged": 9,
+      "closed": 2
+    },
+    "years": [
+      {
+        "year": 2026,
+        "created": 11,
+        "merged": 9,
+        "closed": 2,
+        "acceptance": 81.81818181818181,
+        "ttm_median": 0.01820824074074074,
+        "ttm_p90": 2.040611527777779,
+        "commented": 0.0,
+        "self_merged": 55.55555555555556,
+        "authors": 4,
+        "targets": {
+          "main": 11
+        }
+      }
+    ],
+    "recent": {
+      "created": 11,
+      "merged": 9,
+      "acceptance": 81.81818181818181,
+      "ttm_median": 0.01820824074074074,
+      "ttm_p90": 2.040611527777779,
+      "commented": 0.0,
+      "self_merged": 55.55555555555556,
+      "authors": 4,
+      "targets": {
+        "main": 11
+      }
+    },
+    "created_month": {
+      "2026-09": 3,
+      "2026-08": 1,
+      "2026-05": 1,
+      "2026-04": 1,
+      "2026-03": 5
+    },
+    "merged_month": {
+      "2026-09": 3,
+      "2026-08": 1,
+      "2026-05": 2,
+      "2026-03": 3
+    },
+    "open": []
+  },
+  "issues": {
+    "total": 3,
+    "open": 3,
+    "closed": 0,
+    "years": [
+      {
+        "year": 2026,
+        "opened": 3,
+        "closed": 0,
+        "ttc_median": null
+      }
+    ],
+    "recent_opened": 3,
+    "recent_closed": 0,
+    "recent_ttc_median": null,
+    "open_age_buckets": {
+      "até 30 dias": 0,
+      "31 a 90 dias": 0,
+      "91 dias a 1 ano": 3,
+      "mais de 1 ano": 0
+    },
+    "open_over_year_pct": 0.0,
+    "open_labels": [],
+    "authors_recent": 1
+  },
+  "pipelines": {
+    "main": {
+      "total": 47,
+      "success": 33,
+      "failed": 14,
+      "canceled": 0,
+      "other": 0,
+      "success_rate": 70.2127659574468
+    },
+    "todas": {
+      "total": 61,
+      "success": 38,
+      "failed": 23,
+      "canceled": 0,
+      "other": 0,
+      "success_rate": 62.295081967213115
+    }
+  },
+  "tags": {
+    "total": 0,
+    "stable": 0,
+    "latest": null,
+    "latest_stable": null,
+    "recent_stable": 0,
+    "stable_by_year": {}
+  },
+  "quality": {
+    "license": [],
+    "readme": [],
+    "readme_sub": [
+      "api/README.md",
+      "front/README.md"
+    ],
+    "contributing": [],
+    "code_of_conduct": [],
+    "security": [],
+    "changelog": [],
+    "mr_templates": [],
+    "issue_templates": [],
+    "contributing_issue_link_ok": null,
+    "committed_reports": [],
+    "ci_jobs": {
+      "api:ruff-lint": {
+        "stage": "quality",
+        "allow_failure": false
+      },
+      "api:ruff-format": {
+        "stage": "quality",
+        "allow_failure": false
+      },
+      "api:mypy": {
+        "stage": "quality",
+        "allow_failure": false
+      },
+      "api:bandit": {
+        "stage": "security",
+        "allow_failure": false
+      },
+      "api:pip-audit": {
+        "stage": "security",
+        "allow_failure": true
+      },
+      "api:trivy": {
+        "stage": "security",
+        "allow_failure": false
+      },
+      "gitleaks": {
+        "stage": "security",
+        "allow_failure": false
+      },
+      "api:semgrep": {
+        "stage": "security",
+        "allow_failure": true
+      },
+      "api:pytest": {
+        "stage": "test",
+        "allow_failure": false
+      },
+      "api:build": {
+        "stage": "build",
+        "allow_failure": false
+      }
+    },
+    "coverage_ci": true,
+    "code_files": 266,
+    "test_files": 118,
+    "test_rows": [
+      [
+        "Arquivos Python em `api/app/`",
+        "163"
+      ],
+      [
+        "Arquivos de teste pytest (`api/tests/`)",
+        "117"
+      ],
+      [
+        "Arquivos TypeScript em `front/apps/*/src/`",
+        "103"
+      ],
+      [
+        "Arquivos de teste do front-end (`*.test.ts`, `*.spec.ts`)",
+        "1"
+      ],
+      [
+        "Ferramentas de análise configuradas no `pyproject.toml`",
+        "Ruff, mypy, Bandit, pip-audit"
+      ]
+    ],
+    "coverage_tool": "pytest-cov",
+    "lockfiles": [
+      "api/uv.lock",
+      "front/pnpm-lock.yaml"
+    ],
+    "git_deps": [],
+    "python": {
+      "version": "3.14",
+      "requires": ">=3.13",
+      "cycle": "3.14",
+      "eol": "31/10/2030",
+      "latest_cycle": "3.14",
+      "supported": true
+    },
+    "platform_rows": [
+      [
+        "FastAPI",
+        "0.137.1",
+        "versão mais recente: 0.143.0"
+      ]
+    ]
+  },
+  "ecosystem": [],
+  "generated": "2026-10-08T14:14:52+00:00",
+  "inicio": "2026-03-01T00:00:00+00:00"
+}

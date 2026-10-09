@@ -1,0 +1,28 @@
+{
+  "participa": {
+    "slug": "participa",
+    "nome": "Participa",
+    "path": "lappis-unb/decidimbr/participa",
+    "repo": "participa",
+    "inicio": "mai/2025",
+    "commits": "412",
+    "contribuidores": "16",
+    "bus": 2,
+    "mrs": "103",
+    "versao": "`0.32.1-v1.0.1`",
+    "pipelines": "`develop`: 100%"
+  },
+  "multicanal": {
+    "slug": "multicanal",
+    "nome": "Participação multicanal",
+    "path": "lappis-unb/decidimbr/multi-channel-participation",
+    "repo": "multi-channel-participation",
+    "inicio": "mar/2026",
+    "commits": "276",
+    "contribuidores": "3",
+    "bus": 1,
+    "mrs": "9",
+    "versao": "nenhuma",
+    "pipelines": "`main`: 70%"
+  }
+}

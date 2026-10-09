@@ -1,0 +1,343 @@
+/* =========================================================================
+   E-book (PDF) — página /print_page/
+   O gerador (scripts/gerar_pdf.cjs) imprime uma parte por vez, ativando
+   uma classe no <body>: bp-part-capa, bp-part-rosto, bp-part-miolo,
+   bp-part-contracapa. As margens de página (@page) também são definidas
+   pelo gerador, conforme a parte.
+   ========================================================================= */
+
+/* ---------------------------------------------------------------- Capa */
+.bp-capa {
+  box-sizing: border-box;
+  min-height: 297mm;
+  padding: 22mm 20mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #ffffff;
+  background: linear-gradient(160deg, #071d41 0%, #0c326f 55%, #1351b4 100%);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.bp-capa p {
+  margin: 0;
+}
+.bp-capa__brand {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 11pt;
+  border-top: 3px solid #ffcd07;
+  padding-top: 4mm;
+  display: inline-block;
+}
+.bp-capa__kicker {
+  font-size: 13pt;
+  color: #adcdff;
+  margin-bottom: 6mm !important;
+}
+.md-typeset .bp-capa h1.bp-capa__title {
+  font-size: 54pt;
+  line-height: 1;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 8mm;
+  border: 0;
+  padding: 0;
+}
+.bp-capa__subtitle {
+  font-size: 14pt;
+  max-width: 140mm;
+  color: #e6e6e6;
+}
+.bp-capa__footer {
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: #d4e5ff;
+}
+.bp-capa__edition {
+  margin-top: 6mm !important;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------- Folha de rosto e apresentação */
+#print-site-cover-page .bp-front,
+#print-site-cover-page .bp-capa {
+  text-align: left;
+}
+.bp-front--rosto,
+.bp-front--apresentacao {
+  font-size: 9.5pt;
+  line-height: 1.45;
+  color: #1b1b1b;
+}
+.bp-front--apresentacao p,
+.bp-front--apresentacao li {
+  margin: 0 0 2mm;
+}
+.bp-front--rosto {
+  text-align: left;
+}
+.bp-rosto__inst {
+  color: #555555;
+  font-size: 9.5pt;
+}
+.md-typeset h1.bp-rosto__title,
+.md-typeset h1.bp-apresentacao__title {
+  font-size: 26pt;
+  color: #071d41;
+  margin: 4mm 0 2mm;
+  border: 0;
+}
+.bp-rosto__subtitle {
+  font-size: 14pt;
+  color: #1351b4;
+  margin: 0 0 8mm;
+}
+.md-typeset h2.bp-rosto__heading {
+  font-size: 12pt;
+  color: #0c326f;
+  margin: 6mm 0 2.5mm;
+  border-bottom: 2px solid #1351b4;
+  padding-bottom: 1mm;
+}
+.md-typeset table.bp-ficha {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 9pt;
+  display: table;
+}
+.md-typeset table.bp-ficha th,
+.md-typeset table.bp-ficha td {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1.3mm 2mm;
+  vertical-align: top;
+  text-align: left;
+  background: none;
+}
+.md-typeset table.bp-ficha th {
+  width: 38mm;
+  color: #0c326f;
+  font-weight: 700;
+}
+.bp-rosto__cite {
+  font-size: 9.5pt;
+  padding: 3mm 4mm;
+  border-left: 4px solid #1351b4;
+  background: #edf5ff;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+/* ---------------------------------------------------------------- Contracapa */
+.bp-contracapa {
+  box-sizing: border-box;
+  min-height: 297mm;
+  padding: 26mm 22mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #071d41;
+  color: #e6e6e6;
+  font-size: 11pt;
+  line-height: 1.6;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.bp-contracapa__title {
+  font-size: 26pt;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 4mm;
+}
+.bp-contracapa__lead {
+  font-size: 14pt;
+  color: #adcdff;
+}
+.bp-contracapa__footer {
+  border-top: 3px solid #ffcd07;
+  padding-top: 6mm;
+  font-size: 9.5pt;
+  color: #d4e5ff;
+}
+.bp-contracapa__logos {
+  display: flex;
+  align-items: center;
+  gap: 10mm;
+  margin-bottom: 8mm;
+}
+.bp-contracapa__logo--invert {
+  filter: brightness(0) invert(1);
+}
+.bp-contracapa__parceria {
+  font-size: 9pt;
+  line-height: 1.35;
+  padding-left: 4mm;
+  border-left: 3px solid #ffcd07;
+  color: #d4e5ff;
+}
+.bp-contracapa__parceria strong {
+  color: #ffffff;
+}
+.bp-contracapa__motto {
+  font-size: 13pt;
+  font-weight: 700;
+  color: #ffffff;
+}
+.bp-contracapa__url {
+  color: #adcdff;
+}
+
+/* Na tela, a página de impressão mostra só a capa entre os elementos pré-textuais */
+#bp-back-cover {
+  display: none;
+}
+
+@media print {
+  /* Só o conteúdo, sem a interface do site */
+  .md-banner,
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-content__button,
+  .bp-page-footer,
+  .md-top,
+  .headerlink {
+    display: none !important;
+  }
+  .md-main__inner,
+  .md-content__inner,
+  .md-content__inner::before {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .md-content,
+  .md-grid {
+    max-width: none !important;
+    margin: 0 !important;
+  }
+
+  /* Uma parte por vez */
+  body.bp-part-capa #print-site-page > section:not(#print-site-cover-page),
+  body.bp-part-capa .bp-front:not(.bp-front--capa),
+  body.bp-part-rosto #print-site-page > section:not(#print-site-cover-page),
+  body.bp-part-rosto .bp-front--capa,
+  body.bp-part-miolo #print-site-cover-page,
+  body.bp-part-miolo #bp-back-cover,
+  body.bp-part-contracapa #print-site-page > section:not(#bp-back-cover) {
+    display: none !important;
+  }
+  body.bp-part-contracapa #bp-back-cover {
+    display: block !important;
+  }
+  .bp-front--rosto {
+    break-after: page;
+  }
+  #print-site-cover-page {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Capa e contracapa ocupam exatamente uma folha A4 */
+  body.bp-part-capa .bp-capa,
+  body.bp-part-contracapa .bp-contracapa {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 210mm;
+    height: 297mm;
+    min-height: 0;
+  }
+
+  /* O sumário abre o miolo sem página em branco antes (a capa está oculta nesta parte) */
+  body.bp-part-miolo #print-site-page > section.print-page:nth-of-type(2) {
+    break-before: avoid !important;
+    page-break-before: avoid !important;
+  }
+
+  /* Tipografia de livro */
+  body,
+  .md-typeset {
+    font-size: 10.5pt;
+    line-height: 1.5;
+    color: #1b1b1b;
+  }
+  #print-site-page .print-page .md-typeset h1,
+  #print-site-page section.print-page h1 {
+    font-size: 20pt;
+    color: #071d41;
+    border-bottom: 3px solid #1351b4;
+    padding-bottom: 3mm;
+    margin-bottom: 6mm;
+  }
+  .md-typeset h2 {
+    font-size: 14pt;
+    color: #0c326f;
+    margin-top: 7mm;
+  }
+  .md-typeset h3 {
+    font-size: 12pt;
+    color: #1351b4;
+  }
+  .md-typeset a {
+    color: #1351b4;
+  }
+
+  /* Evitar cortes */
+  .md-typeset pre,
+  .md-typeset .admonition,
+  .md-typeset details,
+  .md-typeset .mermaid,
+  .md-typeset .grid.cards > ul > li,
+  .bp-stats > div,
+  .md-typeset tr {
+    break-inside: avoid;
+  }
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3 {
+    break-after: avoid;
+  }
+
+  /* Tabelas */
+  .md-typeset table:not([class]) {
+    font-size: 8.5pt;
+    box-shadow: none;
+  }
+  .md-typeset table:not([class]) th {
+    background-color: #edf5ff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Destaques */
+  .md-typeset .grid.cards > ul > li,
+  .bp-hero,
+  .bp-stats > div {
+    box-shadow: none !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .bp-hero .md-button {
+    display: none;
+  }
+
+  /* Abas convertidas em seções pelo gerador */
+  .bp-print-tab-title {
+    font-weight: 700;
+    color: #0c326f;
+    margin: 4mm 0 2mm;
+    border-left: 4px solid #1351b4;
+    padding-left: 2mm;
+  }
+
+  /* Sumário */
+  #print-page-toc {
+    break-after: page;
+  }
+  #print-page-toc a {
+    color: #1b1b1b;
+  }
+}

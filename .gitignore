@@ -1,0 +1,21 @@
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Poetry
+poetry.lock
+
+# Claude Code configurações locais
+.claude/settings.local.json
+
+# Cache do gerador de estatísticas
+.cache/
+
+# PDF gerado localmente
+dist/
+.pdf/

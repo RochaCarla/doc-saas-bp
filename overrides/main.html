@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block announce %}
+  <span class="bp-announce">
+    <strong>Novo:</strong> documentação do Participa e da participação multicanal (API OP-BP).
+    <a href="{{ 'novidades/' | url }}">Veja as novidades</a>
+  </span>
+{% endblock %}
+
+{% block content %}
+  {{ super() }}
+  {% if page and not page.meta.hide_feedback and not page.is_homepage %}
+    {% set issue_title = "Documentação: " ~ page.title %}
+    {% set issue_body = "Página: " ~ page.canonical_url ~ "\n\nO que precisa melhorar?\n" %}
+    <aside class="bp-page-footer" aria-label="Sobre esta página">
+      <p class="bp-page-footer__question">Encontrou algo errado ou desatualizado nesta página?</p>
+      <p class="bp-page-footer__actions">
+        <a class="md-button" href="{{ config.repo_url }}/issues/new?title={{ issue_title | urlencode }}&body={{ issue_body | urlencode }}" target="_blank" rel="noopener">
+          {% include ".icons/material/message-alert-outline.svg" %} Reportar um problema
+        </a>
+        <a class="md-button" href="{{ config.site_url }}documentacao-brasil-participativo-saas.pdf">
+          {% include ".icons/material/file-pdf-box.svg" %} Baixar tudo em PDF
+        </a>
+        {% if page.edit_url %}
+        <a class="md-button" href="{{ page.edit_url }}" target="_blank" rel="noopener">
+          {% include ".icons/material/file-edit-outline.svg" %} Sugerir uma edição
+        </a>
+        {% endif %}
+      </p>
+      <p class="bp-page-footer__note">
+        Salvo indicação em contrário, esta documentação reflete o <code>participa</code> com Decidim 0.32.1 (branch <code>main</code>) e o <code>multi-channel-participation</code> (branch <code>main</code>), em outubro de 2026.
+      </p>
+    </aside>
+  {% endif %}
+{% endblock %}

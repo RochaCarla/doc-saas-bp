@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "doc-saas-bp"
+version = "0.1.0"
+description = "Documentação técnica do Brasil Participativo SaaS"
+authors = ["LabLivre/UnB <decidim@unb.br>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = ">=1.6,<2"
+mkdocs-material = "9.7.7"
+mkdocs-print-site-plugin = "2.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

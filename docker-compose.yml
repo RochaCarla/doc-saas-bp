@@ -1,0 +1,29 @@
+# Documentação do Brasil Participativo SaaS
+#
+#   docker compose up -d docs                      # servidor com recarga em http://localhost:8000/doc-saas-bp/
+#   docker compose run --rm docs build --strict    # build estático em ./site
+#   ./scripts/pdf.sh                               # e-book em ./dist/documentacao-brasil-participativo-saas.pdf
+services:
+  docs:
+    build: .
+    image: doc-saas-bp-mkdocs:9.7.7
+    container_name: doc-saas-bp
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/docs
+    command: serve --dev-addr=0.0.0.0:8000 --livereload
+
+  pdf:
+    build:
+      context: .
+      dockerfile: docker/pdf.Dockerfile
+    image: doc-saas-bp-pdf:25.12.0
+    profiles: ["pdf"]
+    volumes:
+      - .:/docs
+    working_dir: /docs
+    environment:
+      NODE_PATH: /home/pptruser/node_modules
+      DOC_VERSION: ${DOC_VERSION:-versão local}
+    command: node scripts/gerar_pdf.cjs dist/site dist/documentacao-brasil-participativo-saas.pdf
