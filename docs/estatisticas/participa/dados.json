@@ -261,14 +261,144 @@
         1.486988847583643
       ]
     ],
-    "new_recent": 11
+    "new_recent": 11,
+    "people": [
+      {
+        "name": "Eduardo Nunes",
+        "commits": 101,
+        "share": 33.114754098360656,
+        "recent": 101,
+        "first": "2026-09-17T22:43:02-03:00",
+        "last": "2026-10-06T23:07:48-03:00"
+      },
+      {
+        "name": "Leonardo M. Miranda",
+        "commits": 63,
+        "share": 20.65573770491803,
+        "recent": 40,
+        "first": "2025-05-20T16:12:56-03:00",
+        "last": "2026-05-12T09:42:47-03:00"
+      },
+      {
+        "name": "Paulo Tada",
+        "commits": 44,
+        "share": 14.426229508196721,
+        "recent": 37,
+        "first": "2025-05-30T08:48:00-03:00",
+        "last": "2026-10-07T00:10:34+00:00"
+      },
+      {
+        "name": "Lucca Medeiros",
+        "commits": 28,
+        "share": 9.180327868852459,
+        "recent": 28,
+        "first": "2026-03-23T17:47:35+00:00",
+        "last": "2026-10-01T11:17:13+00:00"
+      },
+      {
+        "name": "VictorJorgeFGA",
+        "commits": 25,
+        "share": 8.19672131147541,
+        "recent": 25,
+        "first": "2026-06-15T08:48:32-03:00",
+        "last": "2026-09-28T12:24:41-03:00"
+      },
+      {
+        "name": "Maria Eduarda Quaresma",
+        "commits": 10,
+        "share": 3.278688524590164,
+        "recent": 9,
+        "first": "2025-09-15T13:29:08+00:00",
+        "last": "2026-09-28T20:01:35+00:00"
+      },
+      {
+        "name": "Lucas Pirola",
+        "commits": 7,
+        "share": 2.2950819672131146,
+        "recent": 7,
+        "first": "2026-09-25T11:49:17-03:00",
+        "last": "2026-09-30T09:55:47-03:00"
+      },
+      {
+        "name": "Daniela s oliveira",
+        "commits": 5,
+        "share": 1.639344262295082,
+        "recent": 5,
+        "first": "2025-10-14T15:07:12+00:00",
+        "last": "2026-07-07T18:52:17+00:00"
+      },
+      {
+        "name": "Gustavo Henrique",
+        "commits": 5,
+        "share": 1.639344262295082,
+        "recent": 5,
+        "first": "2026-06-30T18:15:18-03:00",
+        "last": "2026-10-01T00:48:21-03:00"
+      },
+      {
+        "name": "Leonardo Moreno",
+        "commits": 4,
+        "share": 1.3114754098360655,
+        "recent": 4,
+        "first": "2026-05-28T18:36:56+00:00",
+        "last": "2026-09-07T13:39:59+00:00"
+      },
+      {
+        "name": "zlimaz",
+        "commits": 4,
+        "share": 1.3114754098360655,
+        "recent": 1,
+        "first": "2025-10-06T21:34:08-03:00",
+        "last": "2025-10-15T12:53:44-03:00"
+      },
+      {
+        "name": "Gabriela Alves",
+        "commits": 3,
+        "share": 0.9836065573770492,
+        "recent": 3,
+        "first": "2025-10-17T16:28:37-03:00",
+        "last": "2026-03-03T11:50:47-03:00"
+      },
+      {
+        "name": "Hadrien Froger",
+        "commits": 3,
+        "share": 0.9836065573770492,
+        "recent": 1,
+        "first": "2025-08-25T13:57:56+01:00",
+        "last": "2025-10-22T20:03:41+00:00"
+      },
+      {
+        "name": "arthrok",
+        "commits": 1,
+        "share": 0.32786885245901637,
+        "recent": 1,
+        "first": "2026-05-28T21:03:16-03:00",
+        "last": "2026-05-28T21:03:16-03:00"
+      },
+      {
+        "name": "daniso0412",
+        "commits": 1,
+        "share": 0.32786885245901637,
+        "recent": 1,
+        "first": "2025-11-26T10:26:09-03:00",
+        "last": "2025-11-26T10:26:09-03:00"
+      },
+      {
+        "name": "Vitor Borges dos Santos",
+        "commits": 1,
+        "share": 0.32786885245901637,
+        "recent": 1,
+        "first": "2026-06-29T13:47:53+00:00",
+        "last": "2026-06-29T13:47:53+00:00"
+      }
+    ]
   },
   "mrs": {
-    "total": 117,
+    "total": 119,
     "states": {
-      "opened": 2,
-      "merged": 103,
-      "closed": 12
+      "merged": 105,
+      "closed": 13,
+      "opened": 1
     },
     "years": [
       {
@@ -288,16 +418,17 @@
       },
       {
         "year": 2026,
-        "created": 94,
-        "merged": 81,
-        "closed": 11,
-        "acceptance": 88.04347826086956,
-        "ttm_median": 1.2749073726851852,
-        "ttm_p90": 13.975595092592592,
-        "commented": 15.957446808510639,
-        "self_merged": 43.20987654320987,
-        "authors": 12,
+        "created": 96,
+        "merged": 83,
+        "closed": 12,
+        "acceptance": 87.36842105263158,
+        "ttm_median": 1.0529064930555556,
+        "ttm_p90": 13.824610569444442,
+        "commented": 15.625,
+        "self_merged": 43.373493975903614,
+        "authors": 13,
         "targets": {
+          "core/bump-32": 2,
           "main": 86,
           "feat/chatbot-admin-module": 1,
           "release/0.32.1-v1.0.0": 6,
@@ -306,15 +437,16 @@
       }
     ],
     "recent": {
-      "created": 107,
-      "merged": 93,
-      "acceptance": 88.57142857142857,
-      "ttm_median": 1.2749073726851852,
-      "ttm_p90": 13.983107333333333,
-      "commented": 14.953271028037383,
-      "self_merged": 44.086021505376344,
-      "authors": 15,
+      "created": 109,
+      "merged": 95,
+      "acceptance": 87.96296296296296,
+      "ttm_median": 1.0529064930555556,
+      "ttm_p90": 13.981229273148147,
+      "commented": 14.678899082568808,
+      "self_merged": 44.21052631578947,
+      "authors": 16,
       "targets": {
+        "core/bump-32": 2,
         "main": 99,
         "feat/chatbot-admin-module": 1,
         "release/0.32.1-v1.0.0": 6,
@@ -322,7 +454,7 @@
       }
     },
     "created_month": {
-      "2026-10": 2,
+      "2026-10": 4,
       "2026-09": 27,
       "2026-08": 14,
       "2026-07": 12,
@@ -339,7 +471,7 @@
       "2025-08": 6
     },
     "merged_month": {
-      "2026-10": 5,
+      "2026-10": 7,
       "2026-09": 19,
       "2026-08": 14,
       "2026-07": 10,
@@ -359,14 +491,7 @@
       {
         "iid": 100,
         "title": "Implementa otimização de exportação de contribuições",
-        "age": 22,
-        "target": "main",
-        "draft": false
-      },
-      {
-        "iid": 117,
-        "title": "feat: Implementing google maps provider",
-        "age": 0,
+        "age": 25,
         "target": "main",
         "draft": false
       }
@@ -394,8 +519,8 @@
     "recent_closed": 0,
     "recent_ttc_median": null,
     "open_age_buckets": {
-      "até 30 dias": 3,
-      "31 a 90 dias": 0,
+      "até 30 dias": 2,
+      "31 a 90 dias": 1,
       "91 dias a 1 ano": 4,
       "mais de 1 ano": 2
     },
@@ -442,12 +567,12 @@
       "success_rate": 99.01960784313725
     },
     "todas": {
-      "total": 493,
-      "success": 474,
+      "total": 497,
+      "success": 478,
       "failed": 14,
       "canceled": 5,
       "other": 0,
-      "success_rate": 97.1311475409836
+      "success_rate": 97.15447154471545
     }
   },
   "tags": {
@@ -596,6 +721,6 @@
     ]
   },
   "ecosystem": [],
-  "generated": "2026-10-08T14:14:52+00:00",
+  "generated": "2026-10-10T19:16:35+00:00",
   "inicio": "2025-05-01T00:00:00+00:00"
 }

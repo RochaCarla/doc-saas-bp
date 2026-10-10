@@ -2,12 +2,12 @@
 title: "Qualidade e Boas Práticas: Participação multicanal"
 ---
 
-<!-- Gerado por scripts/estatisticas.py em 2026-10-08T14:14:52+00:00. Não edite à mão. -->
+<!-- Gerado por scripts/estatisticas.py em 2026-10-10T19:16:35+00:00. Não edite à mão. -->
 
 # Qualidade e Boas Práticas: Participação multicanal
 
-!!! info "Coleta de 08/10/2026"
-    Branch `main` do [multi-channel-participation](https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation) e API pública do GitLab. Série a partir de 01/03/2026, mês do primeiro commit. "Últimos 12 meses" = 08/10/2025 a 08/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto multicanal`.
+!!! info "Coleta de 10/10/2026"
+    Branch `main` do [multi-channel-participation](https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation) e API pública do GitLab. Série a partir de 01/03/2026, mês do primeiro commit. "Últimos 12 meses" = 10/10/2025 a 10/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto multicanal`.
 
 
 Indicadores de saúde de projeto de software livre, inspirados nas métricas da [CHAOSS](https://chaoss.community/) e nos critérios do [selo de boas práticas da OpenSSF](https://www.bestpractices.dev/pt-BR/criteria/0).
@@ -86,7 +86,7 @@ Taxa de sucesso = sucesso ÷ (sucesso + falha). Jobs com `allow_failure` não de
 
 | Item | Versão em uso | Situação |
 | --- | --- | --- |
-| Python | 3.14 (exige >=3.13) | fim do suporte em 31/10/2030; ciclo atual 3.14 |
+| Python | 3.14 (exige >=3.13) | fim do suporte em 31/10/2030; ciclo atual 3.15 |
 | FastAPI | 0.137.1 | versão mais recente: 0.143.0 |
 | Lockfiles | `api/uv.lock`, `front/pnpm-lock.yaml` | Versões de dependências travadas |
 

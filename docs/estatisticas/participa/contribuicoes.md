@@ -2,12 +2,12 @@
 title: "Contribuições"
 ---
 
-<!-- Gerado por scripts/estatisticas.py em 2026-10-08T14:14:52+00:00. Não edite à mão. -->
+<!-- Gerado por scripts/estatisticas.py em 2026-10-10T19:16:35+00:00. Não edite à mão. -->
 
 # Contribuições
 
-!!! info "Coleta de 08/10/2026"
-    Branches `main` e `develop` do [participa](https://gitlab.com/lappis-unb/decidimbr/participa) e API pública do GitLab. Série a partir de 01/05/2025, mês do primeiro commit. "Últimos 12 meses" = 08/10/2025 a 08/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto participa`.
+!!! info "Coleta de 10/10/2026"
+    Branches `main` e `develop` do [participa](https://gitlab.com/lappis-unb/decidimbr/participa) e API pública do GitLab. Série a partir de 01/05/2025, mês do primeiro commit. "Últimos 12 meses" = 10/10/2025 a 10/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto participa`.
 
 
 !!! note "Identidades"
@@ -134,9 +134,9 @@ config:
 ---
 xychart-beta horizontal
     title "Issues abertas por idade"
-    x-axis ["até 30 dias", "91 dias a 1 ano", "mais de 1 ano"]
+    x-axis ["até 30 dias", "31 a 90 dias", "91 dias a 1 ano", "mais de 1 ano"]
     y-axis "Issues" 0 --> 5
-    bar [3, 4, 2]
+    bar [2, 1, 4, 2]
 ```
 
 ### Rótulos mais comuns nas issues abertas

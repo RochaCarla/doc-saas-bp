@@ -2,12 +2,12 @@
 title: "Qualidade e Boas Práticas: Participa"
 ---
 
-<!-- Gerado por scripts/estatisticas.py em 2026-10-08T14:14:52+00:00. Não edite à mão. -->
+<!-- Gerado por scripts/estatisticas.py em 2026-10-10T19:16:35+00:00. Não edite à mão. -->
 
 # Qualidade e Boas Práticas: Participa
 
-!!! info "Coleta de 08/10/2026"
-    Branches `main` e `develop` do [participa](https://gitlab.com/lappis-unb/decidimbr/participa) e API pública do GitLab. Série a partir de 01/05/2025, mês do primeiro commit. "Últimos 12 meses" = 08/10/2025 a 08/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto participa`.
+!!! info "Coleta de 10/10/2026"
+    Branches `main` e `develop` do [participa](https://gitlab.com/lappis-unb/decidimbr/participa) e API pública do GitLab. Série a partir de 01/05/2025, mês do primeiro commit. "Últimos 12 meses" = 10/10/2025 a 10/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto participa`.
 
 
 Indicadores de saúde de projeto de software livre, inspirados nas métricas da [CHAOSS](https://chaoss.community/) e nos critérios do [selo de boas práticas da OpenSSF](https://www.bestpractices.dev/pt-BR/criteria/0).
@@ -19,7 +19,7 @@ Indicadores de saúde de projeto de software livre, inspirados nas métricas da 
 | :yellow_circle: | Fator de ausência (pessoas que somam 50% dos commits) | 2 |
 | :green_circle: | Contribuidores ativos | 16 |
 | :green_circle: | Sucesso de pipelines na `develop` | 100% |
-| :green_circle: | Mediana de tempo até o merge | 1,3 dias |
+| :green_circle: | Mediana de tempo até o merge | 1,1 dias |
 | :red_circle: | MRs com ao menos um comentário | 15% |
 | :red_circle: | MRs integrados pelo próprio autor | 44% |
 | :white_circle: | Mediana de tempo para fechar issues | — |
@@ -69,7 +69,7 @@ As faixas abaixo são referências adotadas nesta documentação para orientar a
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | `develop` | 1 | 1 | 0 | 0 | 0 | 100% |
 | `main` | 104 | 101 | 1 | 2 | 0 | 99% |
-| todas as branches | 493 | 474 | 14 | 5 | 0 | 97% |
+| todas as branches | 497 | 478 | 14 | 5 | 0 | 97% |
 
 Taxa de sucesso = sucesso ÷ (sucesso + falha). Jobs com `allow_failure` não derrubam o pipeline.
 

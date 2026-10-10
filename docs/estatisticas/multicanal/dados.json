@@ -169,7 +169,33 @@
         0.37174721189591076
       ]
     ],
-    "new_recent": 3
+    "new_recent": 3,
+    "people": [
+      {
+        "name": "Eduardo Nunes",
+        "commits": 264,
+        "share": 98.14126394052045,
+        "recent": 264,
+        "first": "2026-03-17T00:00:00-03:00",
+        "last": "2026-09-14T21:16:14+00:00"
+      },
+      {
+        "name": "David Carlos",
+        "commits": 4,
+        "share": 1.486988847583643,
+        "recent": 4,
+        "first": "2026-03-19T00:00:00-03:00",
+        "last": "2026-05-22T23:16:48+00:00"
+      },
+      {
+        "name": "Thais Rebouças de Araujo",
+        "commits": 1,
+        "share": 0.37174721189591076,
+        "recent": 1,
+        "first": "2026-03-25T00:00:00-03:00",
+        "last": "2026-03-25T00:00:00-03:00"
+      }
+    ]
   },
   "mrs": {
     "total": 11,
@@ -366,7 +392,7 @@
       "requires": ">=3.13",
       "cycle": "3.14",
       "eol": "31/10/2030",
-      "latest_cycle": "3.14",
+      "latest_cycle": "3.15",
       "supported": true
     },
     "platform_rows": [
@@ -378,6 +404,6 @@
     ]
   },
   "ecosystem": [],
-  "generated": "2026-10-08T14:14:52+00:00",
+  "generated": "2026-10-10T19:16:35+00:00",
   "inicio": "2026-03-01T00:00:00+00:00"
 }

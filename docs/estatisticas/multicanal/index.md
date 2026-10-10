@@ -2,12 +2,12 @@
 title: "Estatísticas: Participação multicanal"
 ---
 
-<!-- Gerado por scripts/estatisticas.py em 2026-10-08T14:14:52+00:00. Não edite à mão. -->
+<!-- Gerado por scripts/estatisticas.py em 2026-10-10T19:16:35+00:00. Não edite à mão. -->
 
 # Estatísticas: Participação multicanal
 
-!!! info "Coleta de 08/10/2026"
-    Branch `main` do [multi-channel-participation](https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation) e API pública do GitLab. Série a partir de 01/03/2026, mês do primeiro commit. "Últimos 12 meses" = 08/10/2025 a 08/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto multicanal`.
+!!! info "Coleta de 10/10/2026"
+    Branch `main` do [multi-channel-participation](https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation) e API pública do GitLab. Série a partir de 01/03/2026, mês do primeiro commit. "Últimos 12 meses" = 10/10/2025 a 10/10/2026. Para atualizar, rode `python3 scripts/estatisticas.py --projeto multicanal`.
 
 
 Indicadores de atividade, colaboração e qualidade do `multi-channel-participation`, organizados segundo métricas da comunidade [CHAOSS](https://chaoss.community/) e critérios do selo de boas práticas da [OpenSSF](https://www.bestpractices.dev/).
@@ -72,17 +72,12 @@ Indicadores de atividade, colaboração e qualidade do `multi-channel-participat
 | Estrelas / forks no GitLab | 0 / 1 |
 | Linguagens (GitLab) | Python 60%, TSX 18%, HTML 14%, TypeScript 4%, CSS 3% |
 
-## Painel de indicadores
+## Contribuidores
 
-Situação dos principais indicadores nos últimos 12 meses. As faixas estão em [Qualidade](qualidade.md#como-ler-os-indicadores).
+Todas as 3 pessoas que fizeram commit no repositório, desde março de 2026, sem contar commits de merge. Variações de nome e e-mail da mesma pessoa são agrupadas automaticamente, e os e-mails não são publicados. A concentração das contribuições está em [Contribuições](contribuicoes.md).
 
-|  | Indicador | Valor |
-| --- | --- | --- |
-| :red_circle: | Fator de ausência (pessoas que somam 50% dos commits) | 1 |
-| :red_circle: | Contribuidores ativos | 3 |
-| :yellow_circle: | Sucesso de pipelines na `main` | 70% |
-| :green_circle: | Mediana de tempo até o merge | 0 h |
-| :red_circle: | MRs com ao menos um comentário | 0% |
-| :red_circle: | MRs integrados pelo próprio autor | 56% |
-| :white_circle: | Mediana de tempo para fechar issues | — |
-| :green_circle: | Commits no padrão Conventional Commits | 99% |
+| # | Pessoa | Commits | Participação | Últimos 12 meses | Primeiro commit | Último commit |
+| ---: | --- | ---: | ---: | ---: | --- | --- |
+| 1 | Eduardo Nunes | 264 | 98% | 264 | 17/03/2026 | 14/09/2026 |
+| 2 | David Carlos | 4 | 1% | 4 | 19/03/2026 | 22/05/2026 |
+| 3 | Thais Rebouças de Araujo | 1 | <1% | 1 | 25/03/2026 | 25/03/2026 |

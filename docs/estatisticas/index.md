@@ -2,7 +2,7 @@
 title: Estatísticas
 ---
 
-<!-- Gerado por scripts/estatisticas.py em 2026-10-08T14:14:52+00:00. Não edite à mão. -->
+<!-- Gerado por scripts/estatisticas.py em 2026-10-10T19:16:35+00:00. Não edite à mão. -->
 
 # Estatísticas
 
@@ -16,7 +16,7 @@ Atividade, colaboração e qualidade dos repositórios documentados, organizadas
 
     `participa` · série desde mai/2025
 
-    **412** commits · **16** contribuidores · **103** MRs integrados
+    **412** commits · **16** contribuidores · **105** MRs integrados
 
     [:octicons-arrow-right-24: Estatísticas](participa/index.md)
 
@@ -39,6 +39,6 @@ Atividade, colaboração e qualidade dos repositórios documentados, organizadas
 | Commits | 412 | 276 |
 | Contribuidores | 16 | 3 |
 | Fator de ausência (12 meses) | 2 | 1 |
-| MRs integrados | 103 | 9 |
+| MRs integrados | 105 | 9 |
 | Última versão estável | `0.32.1-v1.0.1` | nenhuma |
 | Sucesso de pipelines na branch de integração | `develop`: 100% | `main`: 70% |

@@ -387,7 +387,21 @@ def contributor_metrics(commits: list[dict], now: datetime, since: datetime) -> 
         "top_recent": [(names[a], n, pct(n, total_recent)) for a, n in recent.most_common(10)],
         "new_recent": sum(1 for a in recent if first_year[a] >= since.year and
                           min(c["date"] for c in commits if c["author_id"] == a) >= since),
+        "people": people_list(commits, all_time, recent, names),
     }
+
+
+def people_list(commits: list[dict], all_time: Counter, recent: Counter, names: dict) -> list[dict]:
+    """Todas as pessoas que fizeram commit na série, da que mais contribuiu para a que menos."""
+    first, last = {}, {}
+    for c in commits:
+        a = c["author_id"]
+        first[a] = min(first.get(a, c["date"]), c["date"])
+        last[a] = max(last.get(a, c["date"]), c["date"])
+    total = sum(all_time.values())
+    return [{"name": names[a], "commits": n, "share": pct(n, total), "recent": recent.get(a, 0),
+             "first": first[a], "last": last[a]}
+            for a, n in sorted(all_time.items(), key=lambda x: (-x[1], names[x[0]].lower()))]
 
 
 def mr_metrics(mrs: list[dict], now: datetime, since: datetime) -> dict:
@@ -821,10 +835,15 @@ def render_index(d: dict, meta: dict) -> str:
         ["Estrelas / forks no GitLab", f"{fmt_int(d['project'].get('star_count'))} / {fmt_int(d['project'].get('forks_count'))}"],
         ["Linguagens (GitLab)", ", ".join(f"{k} {v:.0f}%" for k, v in d["languages"].items())],
     ]))
-    out.append("\n## Painel de indicadores\n")
-    out.append("Situação dos principais indicadores nos últimos 12 meses. As faixas estão em "
-               "[Qualidade](qualidade.md#como-ler-os-indicadores).\n")
-    out.append(table(["", "Indicador", "Valor"], indicator_rows(d)[:8], "lll"))
+    out.append("\n## Contribuidores\n")
+    out.append(f"Todas as {fmt_int(ct['total'])} pessoas que fizeram commit no repositório, "
+               f"{desde().lower()}, sem contar commits de merge. Variações de nome e e-mail da mesma pessoa "
+               "são agrupadas automaticamente, e os e-mails não são publicados. "
+               "A concentração das contribuições está em [Contribuições](contribuicoes.md).\n")
+    out.append(table(["#", "Pessoa", "Commits", "Participação", "Últimos 12 meses", "Primeiro commit", "Último commit"],
+                     [[i, p["name"].replace("|", "\\|"), fmt_int(p["commits"]), "<1%" if p["share"] is not None and p["share"] < 0.5 else fmt_pct(p["share"]),
+                       fmt_int(p["recent"]), fmt_date(p["first"]), fmt_date(p["last"])]
+                      for i, p in enumerate(ct["people"], 1)], "rlrrrll"))
     if not d["ecosystem"]:
         return "\n".join(out) + "\n"
     out.append("\n## Ecossistema de componentes\n")
