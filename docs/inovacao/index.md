@@ -20,6 +20,18 @@ O que o Brasil Participativo SaaS traz de novo em relação ao Brasil Participat
 
     Identificação progressiva, roteiros de conversa editáveis sem reinício, desenho para alta escala e anonimização.
 
+-   :material-format-list-checks:{ .lg .middle } **[Funcionalidades do Participa](funcionalidades-participa.md)**
+
+    ---
+
+    Catálogo completo, por tema, de tudo o que o Participa implementou além do Decidim, com data e evidência.
+
+-   :material-format-list-checks:{ .lg .middle } **[Funcionalidades da participação multicanal](funcionalidades-multicanal.md)**
+
+    ---
+
+    Catálogo completo da API OP-BP, do painel e do app, com data e evidência.
+
 </div>
 
 ## Em números

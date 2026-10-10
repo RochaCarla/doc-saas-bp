@@ -46,7 +46,7 @@ Toda afirmação técnica cita arquivo, linha ou commit. O que não tem fonte é
 | Início | Home, trilhas por perfil, novidades |
 | Documentação | Visão Geral (sobre, arquitetura do sistema, glossário), Participa (14 páginas e Banco de Dados), Participação multicanal (10 páginas) |
 | Transferência | Pacote de transferência: índice, inventário, operação, segurança, APIs, release, testes, atualização, sobrescritas (gerada), decisões, repasse |
-| Inovação | Índice, Participa, Participação multicanal |
+| Inovação | Índice, Participa, Participação multicanal e os catálogos de funcionalidades de cada projeto, com data e evidência por item |
 | Estatísticas | Resumo e cinco páginas por projeto (geradas) |
 | Sobre | Origem, licenças, uso de IA |
 
