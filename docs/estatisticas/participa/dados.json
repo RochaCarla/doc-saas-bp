@@ -269,7 +269,15 @@
         "share": 33.114754098360656,
         "recent": 101,
         "first": "2026-09-17T22:43:02-03:00",
-        "last": "2026-10-06T23:07:48-03:00"
+        "last": "2026-10-06T23:07:48-03:00",
+        "variants": [
+          "Eduardo Nunes"
+        ],
+        "profile": {
+          "username": "Edu_25",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/122986/avatar.png?v=1791461400",
+          "url": "https://gitlab.com/Edu_25"
+        }
       },
       {
         "name": "Leonardo M. Miranda",
@@ -277,7 +285,16 @@
         "share": 20.65573770491803,
         "recent": 40,
         "first": "2025-05-20T16:12:56-03:00",
-        "last": "2026-05-12T09:42:47-03:00"
+        "last": "2026-05-12T09:42:47-03:00",
+        "variants": [
+          "Leonardo M. Miranda",
+          "leomichalski"
+        ],
+        "profile": {
+          "username": "leomichalski",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/5593918/avatar.png?v=1791520714",
+          "url": "https://gitlab.com/leomichalski"
+        }
       },
       {
         "name": "Paulo Tada",
@@ -285,7 +302,15 @@
         "share": 14.426229508196721,
         "recent": 37,
         "first": "2025-05-30T08:48:00-03:00",
-        "last": "2026-10-07T00:10:34+00:00"
+        "last": "2026-10-07T00:10:34+00:00",
+        "variants": [
+          "Paulo Tada"
+        ],
+        "profile": {
+          "username": "paulohtfs",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/136987/avatar.png?v=1791331345",
+          "url": "https://gitlab.com/paulohtfs"
+        }
       },
       {
         "name": "Lucca Medeiros",
@@ -293,7 +318,16 @@
         "share": 9.180327868852459,
         "recent": 28,
         "first": "2026-03-23T17:47:35+00:00",
-        "last": "2026-10-01T11:17:13+00:00"
+        "last": "2026-10-01T11:17:13+00:00",
+        "variants": [
+          "Lucca Medeiros",
+          "Medeiros"
+        ],
+        "profile": {
+          "username": "luccameds",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/12931902/avatar.png?v=1791295249",
+          "url": "https://gitlab.com/luccameds"
+        }
       },
       {
         "name": "VictorJorgeFGA",
@@ -301,7 +335,15 @@
         "share": 8.19672131147541,
         "recent": 25,
         "first": "2026-06-15T08:48:32-03:00",
-        "last": "2026-09-28T12:24:41-03:00"
+        "last": "2026-09-28T12:24:41-03:00",
+        "variants": [
+          "VictorJorgeFGA"
+        ],
+        "profile": {
+          "username": "VictorJorgeFGA",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/3836497/avatar.png?v=1791334269",
+          "url": "https://gitlab.com/VictorJorgeFGA"
+        }
       },
       {
         "name": "Maria Eduarda Quaresma",
@@ -309,7 +351,15 @@
         "share": 3.278688524590164,
         "recent": 9,
         "first": "2025-09-15T13:29:08+00:00",
-        "last": "2026-09-28T20:01:35+00:00"
+        "last": "2026-09-28T20:01:35+00:00",
+        "variants": [
+          "Maria Eduarda Quaresma"
+        ],
+        "profile": {
+          "username": "eduardaq2805",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/21171534/avatar.png?v=1791593743",
+          "url": "https://gitlab.com/eduardaq2805"
+        }
       },
       {
         "name": "Lucas Pirola",
@@ -317,7 +367,15 @@
         "share": 2.2950819672131146,
         "recent": 7,
         "first": "2026-09-25T11:49:17-03:00",
-        "last": "2026-09-30T09:55:47-03:00"
+        "last": "2026-09-30T09:55:47-03:00",
+        "variants": [
+          "Lucas Pirola"
+        ],
+        "profile": {
+          "username": "lpirola",
+          "avatar": "https://secure.gravatar.com/avatar/83559cf84403814a0f8a7fdae833f8b9243b425ef4d0ee04e5b288b98ae62a52?s=80&d=identicon",
+          "url": "https://gitlab.com/lpirola"
+        }
       },
       {
         "name": "Daniela s oliveira",
@@ -325,7 +383,15 @@
         "share": 1.639344262295082,
         "recent": 5,
         "first": "2025-10-14T15:07:12+00:00",
-        "last": "2026-07-07T18:52:17+00:00"
+        "last": "2026-07-07T18:52:17+00:00",
+        "variants": [
+          "Daniela s oliveira"
+        ],
+        "profile": {
+          "username": "daniela0412",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/3764496/avatar.png?v=1789026520",
+          "url": "https://gitlab.com/daniela0412"
+        }
       },
       {
         "name": "Gustavo Henrique",
@@ -333,7 +399,15 @@
         "share": 1.639344262295082,
         "recent": 5,
         "first": "2026-06-30T18:15:18-03:00",
-        "last": "2026-10-01T00:48:21-03:00"
+        "last": "2026-10-01T00:48:21-03:00",
+        "variants": [
+          "Gustavo Henrique"
+        ],
+        "profile": {
+          "username": "gustavohenriqueprivado",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/9349472/avatar.png?v=1791639200",
+          "url": "https://gitlab.com/gustavohenriqueprivado"
+        }
       },
       {
         "name": "Leonardo Moreno",
@@ -341,7 +415,15 @@
         "share": 1.3114754098360655,
         "recent": 4,
         "first": "2026-05-28T18:36:56+00:00",
-        "last": "2026-09-07T13:39:59+00:00"
+        "last": "2026-09-07T13:39:59+00:00",
+        "variants": [
+          "Leonardo Moreno"
+        ],
+        "profile": {
+          "username": "LeLaMo",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/15571936/avatar.png?v=1791294161",
+          "url": "https://gitlab.com/LeLaMo"
+        }
       },
       {
         "name": "zlimaz",
@@ -349,7 +431,15 @@
         "share": 1.3114754098360655,
         "recent": 1,
         "first": "2025-10-06T21:34:08-03:00",
-        "last": "2025-10-15T12:53:44-03:00"
+        "last": "2025-10-15T12:53:44-03:00",
+        "variants": [
+          "zlimaz"
+        ],
+        "profile": {
+          "username": "zlimaz",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/24849299/avatar.png?v=1791210103",
+          "url": "https://gitlab.com/zlimaz"
+        }
       },
       {
         "name": "Gabriela Alves",
@@ -357,7 +447,15 @@
         "share": 0.9836065573770492,
         "recent": 3,
         "first": "2025-10-17T16:28:37-03:00",
-        "last": "2026-03-03T11:50:47-03:00"
+        "last": "2026-03-03T11:50:47-03:00",
+        "variants": [
+          "Gabriela Alves"
+        ],
+        "profile": {
+          "username": "gaubiela",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/15310666/avatar.png?v=1789126956",
+          "url": "https://gitlab.com/gaubiela"
+        }
       },
       {
         "name": "Hadrien Froger",
@@ -365,7 +463,15 @@
         "share": 0.9836065573770492,
         "recent": 1,
         "first": "2025-08-25T13:57:56+01:00",
-        "last": "2025-10-22T20:03:41+00:00"
+        "last": "2025-10-22T20:03:41+00:00",
+        "variants": [
+          "Hadrien Froger"
+        ],
+        "profile": {
+          "username": "hadrien_froger",
+          "avatar": "https://secure.gravatar.com/avatar/b551ec9b94e3772f1cbd46989a8061ae86d805e9d407e3af4a81967a80976b73?s=80&d=identicon",
+          "url": "https://gitlab.com/hadrien_froger"
+        }
       },
       {
         "name": "arthrok",
@@ -373,7 +479,15 @@
         "share": 0.32786885245901637,
         "recent": 1,
         "first": "2026-05-28T21:03:16-03:00",
-        "last": "2026-05-28T21:03:16-03:00"
+        "last": "2026-05-28T21:03:16-03:00",
+        "variants": [
+          "arthrok"
+        ],
+        "profile": {
+          "username": "Arthrok",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/18652769/avatar.png?v=1791550225",
+          "url": "https://gitlab.com/Arthrok"
+        }
       },
       {
         "name": "daniso0412",
@@ -381,7 +495,11 @@
         "share": 0.32786885245901637,
         "recent": 1,
         "first": "2025-11-26T10:26:09-03:00",
-        "last": "2025-11-26T10:26:09-03:00"
+        "last": "2025-11-26T10:26:09-03:00",
+        "variants": [
+          "daniso0412"
+        ],
+        "profile": null
       },
       {
         "name": "Vitor Borges dos Santos",
@@ -389,7 +507,15 @@
         "share": 0.32786885245901637,
         "recent": 1,
         "first": "2026-06-29T13:47:53+00:00",
-        "last": "2026-06-29T13:47:53+00:00"
+        "last": "2026-06-29T13:47:53+00:00",
+        "variants": [
+          "Vitor Borges dos Santos"
+        ],
+        "profile": {
+          "username": "VitorB2002",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/14858311/avatar.png?v=1791200321",
+          "url": "https://gitlab.com/VitorB2002"
+        }
       }
     ]
   },
@@ -721,6 +847,6 @@
     ]
   },
   "ecosystem": [],
-  "generated": "2026-10-10T19:16:35+00:00",
+  "generated": "2026-10-10T19:18:25+00:00",
   "inicio": "2025-05-01T00:00:00+00:00"
 }

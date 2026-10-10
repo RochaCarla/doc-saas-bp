@@ -177,7 +177,16 @@
         "share": 98.14126394052045,
         "recent": 264,
         "first": "2026-03-17T00:00:00-03:00",
-        "last": "2026-09-14T21:16:14+00:00"
+        "last": "2026-09-14T21:16:14+00:00",
+        "variants": [
+          "Eduardo Nunes",
+          "Eduardo_Nunes"
+        ],
+        "profile": {
+          "username": "Edu_25",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/122986/avatar.png?v=1791461400",
+          "url": "https://gitlab.com/Edu_25"
+        }
       },
       {
         "name": "David Carlos",
@@ -185,7 +194,15 @@
         "share": 1.486988847583643,
         "recent": 4,
         "first": "2026-03-19T00:00:00-03:00",
-        "last": "2026-05-22T23:16:48+00:00"
+        "last": "2026-05-22T23:16:48+00:00",
+        "variants": [
+          "David Carlos"
+        ],
+        "profile": {
+          "username": "davidCarlos",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/10554/avatar.png?v=1791590462",
+          "url": "https://gitlab.com/davidCarlos"
+        }
       },
       {
         "name": "Thais Rebouças de Araujo",
@@ -193,7 +210,15 @@
         "share": 0.37174721189591076,
         "recent": 1,
         "first": "2026-03-25T00:00:00-03:00",
-        "last": "2026-03-25T00:00:00-03:00"
+        "last": "2026-03-25T00:00:00-03:00",
+        "variants": [
+          "Thais Rebouças de Araujo"
+        ],
+        "profile": {
+          "username": "Thais-ra",
+          "avatar": "https://gitlab.com/uploads/-/system/user/avatar/3962597/avatar.png?v=1791592974",
+          "url": "https://gitlab.com/Thais-ra"
+        }
       }
     ]
   },
@@ -404,6 +429,6 @@
     ]
   },
   "ecosystem": [],
-  "generated": "2026-10-10T19:16:35+00:00",
+  "generated": "2026-10-10T19:18:25+00:00",
   "inicio": "2026-03-01T00:00:00+00:00"
 }

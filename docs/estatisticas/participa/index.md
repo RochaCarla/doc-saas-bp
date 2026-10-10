@@ -2,7 +2,7 @@
 title: "Estatísticas: Participa"
 ---
 
-<!-- Gerado por scripts/estatisticas.py em 2026-10-10T19:16:35+00:00. Não edite à mão. -->
+<!-- Gerado por scripts/estatisticas.py em 2026-10-10T19:18:25+00:00. Não edite à mão. -->
 
 # Estatísticas: Participa
 
@@ -74,23 +74,23 @@ Indicadores de atividade, colaboração e qualidade do `participa`, organizados 
 
 ## Contribuidores
 
-Todas as 16 pessoas que fizeram commit no repositório, desde maio de 2025, sem contar commits de merge. Variações de nome e e-mail da mesma pessoa são agrupadas automaticamente, e os e-mails não são publicados. A concentração das contribuições está em [Contribuições](contribuicoes.md).
+Todas as 16 pessoas que fizeram commit no repositório, desde maio de 2025, sem contar commits de merge. Variações de nome e e-mail da mesma pessoa são agrupadas automaticamente, e os e-mails não são publicados. Fotos e links vêm do perfil público de cada pessoa no GitLab; sem perfil encontrado, aparecem as iniciais. A concentração das contribuições está em [Contribuições](contribuicoes.md).
 
 | # | Pessoa | Commits | Participação | Últimos 12 meses | Primeiro commit | Último commit |
 | ---: | --- | ---: | ---: | ---: | --- | --- |
-| 1 | Eduardo Nunes | 101 | 33% | 101 | 17/09/2026 | 06/10/2026 |
-| 2 | Leonardo M. Miranda | 63 | 21% | 40 | 20/05/2025 | 12/05/2026 |
-| 3 | Paulo Tada | 44 | 14% | 37 | 30/05/2025 | 07/10/2026 |
-| 4 | Lucca Medeiros | 28 | 9% | 28 | 23/03/2026 | 01/10/2026 |
-| 5 | VictorJorgeFGA | 25 | 8% | 25 | 15/06/2026 | 28/09/2026 |
-| 6 | Maria Eduarda Quaresma | 10 | 3% | 9 | 15/09/2025 | 28/09/2026 |
-| 7 | Lucas Pirola | 7 | 2% | 7 | 25/09/2026 | 30/09/2026 |
-| 8 | Daniela s oliveira | 5 | 2% | 5 | 14/10/2025 | 07/07/2026 |
-| 9 | Gustavo Henrique | 5 | 2% | 5 | 30/06/2026 | 01/10/2026 |
-| 10 | Leonardo Moreno | 4 | 1% | 4 | 28/05/2026 | 07/09/2026 |
-| 11 | zlimaz | 4 | 1% | 1 | 06/10/2025 | 15/10/2025 |
-| 12 | Gabriela Alves | 3 | 1% | 3 | 17/10/2025 | 03/03/2026 |
-| 13 | Hadrien Froger | 3 | 1% | 1 | 25/08/2025 | 22/10/2025 |
-| 14 | arthrok | 1 | <1% | 1 | 28/05/2026 | 28/05/2026 |
-| 15 | daniso0412 | 1 | <1% | 1 | 26/11/2025 | 26/11/2025 |
-| 16 | Vitor Borges dos Santos | 1 | <1% | 1 | 29/06/2026 | 29/06/2026 |
+| 1 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/122986/avatar.png?v=1791461400" alt="" width="32" height="32" loading="lazy"> [Eduardo Nunes](https://gitlab.com/Edu_25) | 101 | 33% | 101 | 17/09/2026 | 06/10/2026 |
+| 2 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/5593918/avatar.png?v=1791520714" alt="" width="32" height="32" loading="lazy"> [Leonardo M. Miranda](https://gitlab.com/leomichalski) | 63 | 21% | 40 | 20/05/2025 | 12/05/2026 |
+| 3 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/136987/avatar.png?v=1791331345" alt="" width="32" height="32" loading="lazy"> [Paulo Tada](https://gitlab.com/paulohtfs) | 44 | 14% | 37 | 30/05/2025 | 07/10/2026 |
+| 4 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/12931902/avatar.png?v=1791295249" alt="" width="32" height="32" loading="lazy"> [Lucca Medeiros](https://gitlab.com/luccameds) | 28 | 9% | 28 | 23/03/2026 | 01/10/2026 |
+| 5 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/3836497/avatar.png?v=1791334269" alt="" width="32" height="32" loading="lazy"> [VictorJorgeFGA](https://gitlab.com/VictorJorgeFGA) | 25 | 8% | 25 | 15/06/2026 | 28/09/2026 |
+| 6 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/21171534/avatar.png?v=1791593743" alt="" width="32" height="32" loading="lazy"> [Maria Eduarda Quaresma](https://gitlab.com/eduardaq2805) | 10 | 3% | 9 | 15/09/2025 | 28/09/2026 |
+| 7 | <img class="bp-avatar" src="https://secure.gravatar.com/avatar/83559cf84403814a0f8a7fdae833f8b9243b425ef4d0ee04e5b288b98ae62a52?s=80&d=identicon" alt="" width="32" height="32" loading="lazy"> [Lucas Pirola](https://gitlab.com/lpirola) | 7 | 2% | 7 | 25/09/2026 | 30/09/2026 |
+| 8 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/3764496/avatar.png?v=1789026520" alt="" width="32" height="32" loading="lazy"> [Daniela s oliveira](https://gitlab.com/daniela0412) | 5 | 2% | 5 | 14/10/2025 | 07/07/2026 |
+| 9 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/9349472/avatar.png?v=1791639200" alt="" width="32" height="32" loading="lazy"> [Gustavo Henrique](https://gitlab.com/gustavohenriqueprivado) | 5 | 2% | 5 | 30/06/2026 | 01/10/2026 |
+| 10 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/15571936/avatar.png?v=1791294161" alt="" width="32" height="32" loading="lazy"> [Leonardo Moreno](https://gitlab.com/LeLaMo) | 4 | 1% | 4 | 28/05/2026 | 07/09/2026 |
+| 11 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/24849299/avatar.png?v=1791210103" alt="" width="32" height="32" loading="lazy"> [zlimaz](https://gitlab.com/zlimaz) | 4 | 1% | 1 | 06/10/2025 | 15/10/2025 |
+| 12 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/15310666/avatar.png?v=1789126956" alt="" width="32" height="32" loading="lazy"> [Gabriela Alves](https://gitlab.com/gaubiela) | 3 | 1% | 3 | 17/10/2025 | 03/03/2026 |
+| 13 | <img class="bp-avatar" src="https://secure.gravatar.com/avatar/b551ec9b94e3772f1cbd46989a8061ae86d805e9d407e3af4a81967a80976b73?s=80&d=identicon" alt="" width="32" height="32" loading="lazy"> [Hadrien Froger](https://gitlab.com/hadrien_froger) | 3 | 1% | 1 | 25/08/2025 | 22/10/2025 |
+| 14 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/18652769/avatar.png?v=1791550225" alt="" width="32" height="32" loading="lazy"> [arthrok](https://gitlab.com/Arthrok) | 1 | <1% | 1 | 28/05/2026 | 28/05/2026 |
+| 15 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">D</span> daniso0412 | 1 | <1% | 1 | 26/11/2025 | 26/11/2025 |
+| 16 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/14858311/avatar.png?v=1791200321" alt="" width="32" height="32" loading="lazy"> [Vitor Borges dos Santos](https://gitlab.com/VitorB2002) | 1 | <1% | 1 | 29/06/2026 | 29/06/2026 |

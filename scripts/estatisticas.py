@@ -393,15 +393,63 @@ def contributor_metrics(commits: list[dict], now: datetime, since: datetime) -> 
 
 def people_list(commits: list[dict], all_time: Counter, recent: Counter, names: dict) -> list[dict]:
     """Todas as pessoas que fizeram commit na série, da que mais contribuiu para a que menos."""
-    first, last = {}, {}
+    first, last, variants = {}, {}, defaultdict(set)
     for c in commits:
         a = c["author_id"]
         first[a] = min(first.get(a, c["date"]), c["date"])
         last[a] = max(last.get(a, c["date"]), c["date"])
+        variants[a].add(c["name"])
     total = sum(all_time.values())
     return [{"name": names[a], "commits": n, "share": pct(n, total), "recent": recent.get(a, 0),
-             "first": first[a], "last": last[a]}
+             "first": first[a], "last": last[a], "variants": sorted(variants[a])}
             for a, n in sorted(all_time.items(), key=lambda x: (-x[1], names[x[0]].lower()))]
+
+
+def gitlab_profiles(*lists: list[dict]) -> dict[str, dict]:
+    """Perfis públicos (usuário, foto, página) de quem aparece como autor ou integrador de MRs e issues."""
+    profiles: dict[str, dict] = {}
+    for items in lists:
+        for item in items:
+            for key in ("author", "merged_by"):
+                u = item.get(key) or {}
+                if not u.get("username"):
+                    continue
+                prof = {"username": u["username"], "avatar": u.get("avatar_url"), "url": u.get("web_url")}
+                for k in (norm_name(u.get("name") or ""), norm_name(u["username"])):
+                    if k:
+                        profiles.setdefault(k, prof)
+    return profiles
+
+
+def attach_profiles(people: list[dict], profiles: dict[str, dict], http: Http) -> None:
+    """Liga cada pessoa ao perfil do GitLab pelo nome; sem correspondência, tenta o nome como usuário."""
+    for person in people:
+        prof = next((profiles[norm_name(v)] for v in person["variants"] if norm_name(v) in profiles), None)
+        if prof is None:
+            for v in person["variants"]:
+                if " " in v.strip():
+                    continue
+                try:
+                    found, _ = http.get(f"{API}/users", {"username": v.strip()})
+                except Exception:  # noqa: BLE001 - foto é opcional
+                    found = []
+                if found:
+                    u = found[0]
+                    prof = {"username": u["username"], "avatar": u.get("avatar_url"), "url": u.get("web_url")}
+                    break
+        person["profile"] = prof
+
+
+def avatar_cell(person: dict) -> str:
+    """Foto do perfil público do GitLab (ou iniciais) e nome com link para o perfil."""
+    prof = person.get("profile") or {}
+    name = person["name"].replace("|", "\\|")
+    if prof.get("avatar"):
+        img = f'<img class="bp-avatar" src="{prof["avatar"]}" alt="" width="32" height="32" loading="lazy">'
+    else:
+        initials = "".join(w[0] for w in person["name"].split()[:2]).upper() or "?"
+        img = f'<span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">{initials}</span>'
+    return f"{img} [{name}]({prof['url']})" if prof.get("url") else f"{img} {name}"
 
 
 def mr_metrics(mrs: list[dict], now: datetime, since: datetime) -> dict:
@@ -839,9 +887,10 @@ def render_index(d: dict, meta: dict) -> str:
     out.append(f"Todas as {fmt_int(ct['total'])} pessoas que fizeram commit no repositório, "
                f"{desde().lower()}, sem contar commits de merge. Variações de nome e e-mail da mesma pessoa "
                "são agrupadas automaticamente, e os e-mails não são publicados. "
-               "A concentração das contribuições está em [Contribuições](contribuicoes.md).\n")
+               "Fotos e links vêm do perfil público de cada pessoa no GitLab; sem perfil encontrado, aparecem as "
+               "iniciais. A concentração das contribuições está em [Contribuições](contribuicoes.md).\n")
     out.append(table(["#", "Pessoa", "Commits", "Participação", "Últimos 12 meses", "Primeiro commit", "Último commit"],
-                     [[i, p["name"].replace("|", "\\|"), fmt_int(p["commits"]), "<1%" if p["share"] is not None and p["share"] < 0.5 else fmt_pct(p["share"]),
+                     [[i, avatar_cell(p), fmt_int(p["commits"]), "<1%" if p["share"] is not None and p["share"] < 0.5 else fmt_pct(p["share"]),
                        fmt_int(p["recent"]), fmt_date(p["first"]), fmt_date(p["last"])]
                       for i, p in enumerate(ct["people"], 1)], "rlrrrll"))
     if not d["ecosystem"]:
@@ -1211,6 +1260,7 @@ def collect_project(slug: str, args, http: Http, now: datetime, since: datetime)
         "quality": quality_checks(g, now, http),
         "ecosystem": ecosystem,
     }
+    attach_profiles(data["contributors"]["people"], gitlab_profiles(mrs, issues), http)
     meta = {"now": now, "generated": now.isoformat(), "generated_date": fmt_date(now), "since_date": fmt_date(since)}
 
     out = Path(args.out) / slug

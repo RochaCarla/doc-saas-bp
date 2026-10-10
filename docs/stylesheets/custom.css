@@ -584,3 +584,23 @@ body {
   height: 1.3rem;
   fill: #ffffff;
 }
+
+/* Foto de perfil na lista de contribuidores (Estatísticas) */
+.md-typeset .bp-avatar {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: .5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  background: var(--bp-surface-alt);
+}
+.md-typeset .bp-avatar--iniciais {
+  background: var(--blue-warm-vivid-70);
+  color: #fff;
+  font-size: .65rem;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+}
