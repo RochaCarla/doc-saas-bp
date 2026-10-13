@@ -47,7 +47,7 @@
 {#- >>> autoria (gerado por scripts/equipe.py; não edite à mão) -#}
 <div class="bp-front bp-front--autoria">
   <h2 class="bp-rosto__heading">Autoria e equipe</h2>
-  <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 121 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>
+  <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 120 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>
   <ul class="bp-autoria">
     <li>Alexandre Boava</li>
     <li>Ana Paula Tarchetti</li>
@@ -74,7 +74,6 @@
     <li>Danielle Soares</li>
     <li>David Carlos</li>
     <li>Diego Dorgam</li>
-    <li>dudaa28</li>
     <li>Eduardo Nunes</li>
     <li>Eric Silveira</li>
     <li>Fernando Blat</li>

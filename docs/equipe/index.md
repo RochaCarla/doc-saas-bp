@@ -6,7 +6,7 @@ title: Equipe
 
 # Equipe
 
-Quem faz o Brasil Participativo, em ordem alfabética: 121 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo [`lappis-unb/decidimbr`](https://gitlab.com/lappis-unb/decidimbr), no GitLab. A autoria institucional é do LabLivre/UnB.
+Quem faz o Brasil Participativo, em ordem alfabética: 120 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo [`lappis-unb/decidimbr`](https://gitlab.com/lappis-unb/decidimbr), no GitLab. A autoria institucional é do LabLivre/UnB.
 
 A foto vem do GitLab e, quando não há, do Notion. Contatos e outros dados pessoais não são publicados. Lista da página Equipe do portal de conhecimento, gerada em 10/10/2026.
 
@@ -37,7 +37,6 @@ A foto vem do GitLab e, quando não há, do Notion. Contatos e outros dados pess
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/39004627/avatar.png?v=1791495917" alt="" width="32" height="32" loading="lazy"> | Danielle Soares | [@silvasoaresdanielle2](https://gitlab.com/silvasoaresdanielle2) |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/10554/avatar.png?v=1791590462" alt="" width="32" height="32" loading="lazy"> | David Carlos | [@davidCarlos](https://gitlab.com/davidCarlos) |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/1188613/avatar.png?v=1789012487" alt="" width="32" height="32" loading="lazy"> | Diego Dorgam | [@diegodorgam](https://gitlab.com/diegodorgam) |
-| <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">D</span> | dudaa28 | — |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/122986/avatar.png?v=1791461400" alt="" width="32" height="32" loading="lazy"> | Eduardo Nunes | [@Edu_25](https://gitlab.com/Edu_25) |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/6033538/avatar.png?v=1791504169" alt="" width="32" height="32" loading="lazy"> | Eric Silveira | [@eric.bky](https://gitlab.com/eric.bky) |
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">FB</span> | Fernando Blat | — |
