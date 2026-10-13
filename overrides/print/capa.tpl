@@ -44,6 +44,147 @@
   <p class="bp-rosto__cite">LABLIVRE. <strong>Brasil Participativo SaaS</strong>: documentação técnica do Participa e da participação multicanal. Brasília: Universidade de Brasília, <span class="bp-year">2026</span>. Disponível em: {{ config.site_url }}. Acesso em: <span class="bp-access">—</span>.</p>
 </div>
 
+{#- >>> autoria (gerado por scripts/autores.py; não edite à mão) -#}
+<div class="bp-front bp-front--autoria">
+  <h2 class="bp-rosto__heading">Autoria e equipe</h2>
+  <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 132 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>
+  <ul class="bp-autoria">
+    <li>Alexandre Boava</li>
+    <li>Ana Paula Tarchetti</li>
+    <li>Anna e só</li>
+    <li>Arthur Jahn</li>
+    <li>Arthur Lima</li>
+    <li>Arthur Melo</li>
+    <li>Artur Ricardo</li>
+    <li>Artur Seppa Reiman</li>
+    <li>Blas Eduardo</li>
+    <li>Breno Yuri</li>
+    <li>Bruna Pinos</li>
+    <li>Caetano Santos</li>
+    <li>Caio Duarte</li>
+    <li>Caio Flôres</li>
+    <li>Caio Rocha de Oliveira</li>
+    <li>Carla Rocha</li>
+    <li>Carol</li>
+    <li>Carolina Barbosa</li>
+    <li>Cibelly Lourenço</li>
+    <li>Cristiane Naves Cardoso</li>
+    <li>Dalva Santos</li>
+    <li>Daniela s oliveira</li>
+    <li>Danielle Soares</li>
+    <li>daniso0412</li>
+    <li>davi-aguiar-vieira</li>
+    <li>David Carlos</li>
+    <li>Diego Dorgam</li>
+    <li>dudaa28</li>
+    <li>Eduardo Nunes</li>
+    <li>EmivaltoJrr</li>
+    <li>Eric Silveira</li>
+    <li>Fernando Blat</li>
+    <li>Francisco Ferreira</li>
+    <li>Gabriel Costa de Oliveira</li>
+    <li>Gabriel Sabanai</li>
+    <li>Gabriel Scheidt</li>
+    <li>Gabriel Zaranza</li>
+    <li>Gabriela Alves</li>
+    <li>Genilson Silva De Araújo Junior</li>
+    <li>Geovane Freitas</li>
+    <li>Giovanni Alvissus</li>
+    <li>Giovanni Giampauli</li>
+    <li>Gisele Pimenta</li>
+    <li>Guilherme Barbosa Ferreira</li>
+    <li>Guilherme Carballal</li>
+    <li>Guilherme Daniel Fernandes da Silva</li>
+    <li>Guilherme Gusmão Nepomuceno</li>
+    <li>Gustavo</li>
+    <li>Gustavo Gontijo</li>
+    <li>Gustavo Henrique</li>
+    <li>Hadrien Froger</li>
+    <li>hfroger</li>
+    <li>Isaque Alves</li>
+    <li>Joao</li>
+    <li>João Egewarth</li>
+    <li>João Guilherme</li>
+    <li>Joao Nobrega</li>
+    <li>João Pedro Amoêdo</li>
+    <li>Joyce</li>
+    <li>Joyce Dionizio</li>
+    <li>Juan Pablo</li>
+    <li>Juliana</li>
+    <li>Kizia Fonseca</li>
+    <li>Lablivre UnB</li>
+    <li>Lana Vitória</li>
+    <li>Larissa</li>
+    <li>Larissa Gomes Silva</li>
+    <li>Laura Pinos</li>
+    <li>Leonardo da Silva Gomes</li>
+    <li>Leonardo Lago Moreno</li>
+    <li>Leonardo M. Miranda</li>
+    <li>Letícia Hladczuk</li>
+    <li>Loana</li>
+    <li>Luan Guimarães</li>
+    <li>Lucas Guimarães</li>
+    <li>Lucas Maretti</li>
+    <li>Lucas Pirola</li>
+    <li>Lucas Sousa</li>
+    <li>Lucca Medeiros</li>
+    <li>Luiza Davison</li>
+    <li>Maicon Mares</li>
+    <li>Manoel Felipe</li>
+    <li>Marcus Martins</li>
+    <li>Maria Clara Guimarães</li>
+    <li>Maria Eduarda</li>
+    <li>Maria Vitoria Duarte</li>
+    <li>Marina Alves</li>
+    <li>Mateus Cavalcante</li>
+    <li>Mateus de Castro</li>
+    <li>Matheus Carvalho</li>
+    <li>Matheus Miranda</li>
+    <li>Matheus Moreira Beltrami</li>
+    <li>Mayara Faria</li>
+    <li>Medeiros</li>
+    <li>Miguel Arthur</li>
+    <li>Nathalia Feitosa</li>
+    <li>Participa Dev</li>
+    <li>Paula Ribeiro</li>
+    <li>Paulo Gonçalves Lima</li>
+    <li>Paulo Tada</li>
+    <li>Pedro Burity</li>
+    <li>pinos</li>
+    <li>Poppi</li>
+    <li>Rafael Bosi</li>
+    <li>Rafael De Toni</li>
+    <li>Ranielder Freitas</li>
+    <li>Raphael</li>
+    <li>Raquel Eucaria</li>
+    <li>Renam C. da Silva</li>
+    <li>Renan</li>
+    <li>Renan Girão</li>
+    <li>Renato Sampaio</li>
+    <li>Roddas Cabral</li>
+    <li>Rodolfo Neves</li>
+    <li>Ronivaldo Júnior</li>
+    <li>Sandro Haddad</li>
+    <li>Sérgio Granemann</li>
+    <li>Suzane Duarte</li>
+    <li>Thais Rebouças de Araujo</li>
+    <li>Thalita Quelita</li>
+    <li>Victor Jorge da Silva Gonçalves</li>
+    <li>Vinicius Oliveira</li>
+    <li>Vinícius Ribeiro</li>
+    <li>Vitor Bellini</li>
+    <li>Vitor Borges</li>
+    <li>Vitória Ferrari</li>
+    <li>Wildemberg Sales</li>
+    <li>Will</li>
+    <li>William Bernardo</li>
+    <li>Wolfgang Stein</li>
+    <li>Yan Guimarães</li>
+    <li>Yuri Ricarte</li>
+  </ul>
+</div>
+{#- <<< autoria -#}
+
 <div class="bp-front bp-front--apresentacao">
   <h1 class="bp-apresentacao__title">Apresentação</h1>
 

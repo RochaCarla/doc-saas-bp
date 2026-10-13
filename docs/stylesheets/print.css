@@ -61,6 +61,25 @@
   color: #ffffff;
 }
 
+/* ---------------------------------------------------------------- Autoria e equipe (scripts/autores.py) */
+.bp-front--autoria {
+  font-size: 9pt;
+  line-height: 1.4;
+  color: #1b1b1b;
+}
+.md-typeset ul.bp-autoria {
+  columns: 3;
+  column-gap: 6mm;
+  list-style: none;
+  margin: 3mm 0 0;
+  padding: 0;
+}
+.md-typeset ul.bp-autoria li {
+  margin: 0 0 .8mm;
+  padding: 0;
+  break-inside: avoid;
+}
+
 /* ---------------------------------------------------------------- Folha de rosto e apresentação */
 #print-site-cover-page .bp-front,
 #print-site-cover-page .bp-capa {
@@ -232,7 +251,8 @@
   body.bp-part-contracapa #bp-back-cover {
     display: block !important;
   }
-  .bp-front--rosto {
+  .bp-front--rosto,
+  .bp-front--autoria {
     break-after: page;
   }
   #print-site-cover-page {

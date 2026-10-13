@@ -38,6 +38,7 @@ python3 scripts/estatisticas.py                                   # docs/estatis
 python3 scripts/banco_de_dados.py --out docs/participa/banco-de-dados   # Participa data dictionary (except consultas.md)
 python3 scripts/sobrescritas.py                                   # docs/transferencia/sobrescritas.md (vs Decidim v0.32.1)
 python3 scripts/glossario.py                                      # docs/visao-geral/glossario.md (from CONTEXT.md)
+python3 scripts/autores.py                                        # e-book "Autoria e equipe" page in overrides/print/capa.tpl (from scripts/autores.json, copied from the knowledge portal)
 ```
 
 No tests or linter configured in this repo. CI runs `mkdocs build --strict` (versions pinned in `.github/workflows/deploy.yml`, MkDocs < 2) on push to main and deploys to GitHub Pages.

@@ -71,7 +71,7 @@ Mesmo tema do `doc-bp`: tokens do Design System gov.br (`docs/stylesheets/custom
 
 ## 7. E-book
 
-Gerado do `/print_page/` pelo `scripts/gerar_pdf.cjs`: capa, folha de rosto com ficha técnica e "Como citar", apresentação, sumário, miolo numerado e contracapa (`overrides/print/`). Publicado como `documentacao-brasil-participativo-saas.pdf`.
+Gerado do `/print_page/` pelo `scripts/gerar_pdf.cjs`: capa, folha de rosto com ficha técnica e "Como citar", página "Autoria e equipe" (nomes em ordem alfabética, gerados por `scripts/autores.py` a partir de `scripts/autores.json`, que vem da página Equipe do portal de conhecimento), apresentação, sumário, miolo numerado e contracapa (`overrides/print/`). Publicado como `documentacao-brasil-participativo-saas.pdf`.
 
 ## 8. Build e publicação
 
