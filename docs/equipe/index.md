@@ -6,7 +6,7 @@ title: Equipe
 
 # Equipe
 
-Quem faz o Brasil Participativo, em ordem alfabética: 126 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo [`lappis-unb/decidimbr`](https://gitlab.com/lappis-unb/decidimbr), no GitLab. A autoria institucional é do LabLivre/UnB.
+Quem faz o Brasil Participativo, em ordem alfabética: 121 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo [`lappis-unb/decidimbr`](https://gitlab.com/lappis-unb/decidimbr), no GitLab. A autoria institucional é do LabLivre/UnB.
 
 A foto vem do GitLab e, quando não há, do Notion. Contatos e outros dados pessoais não são publicados. Lista da página Equipe do portal de conhecimento, gerada em 10/10/2026.
 
@@ -35,13 +35,10 @@ A foto vem do GitLab e, quando não há, do Notion. Contatos e outros dados pess
 | <img class="bp-avatar" src="../assets/equipe/dalva-santos.jpg" alt="" width="32" height="32" loading="lazy"> | Dalva Santos | — |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/3764496/avatar.png?v=1789026520" alt="" width="32" height="32" loading="lazy"> | Daniela s oliveira | [@daniela0412](https://gitlab.com/daniela0412) |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/39004627/avatar.png?v=1791495917" alt="" width="32" height="32" loading="lazy"> | Danielle Soares | [@silvasoaresdanielle2](https://gitlab.com/silvasoaresdanielle2) |
-| <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">D</span> | daniso0412 | — |
-| <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">D</span> | davi-aguiar-vieira | — |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/10554/avatar.png?v=1791590462" alt="" width="32" height="32" loading="lazy"> | David Carlos | [@davidCarlos](https://gitlab.com/davidCarlos) |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/1188613/avatar.png?v=1789012487" alt="" width="32" height="32" loading="lazy"> | Diego Dorgam | [@diegodorgam](https://gitlab.com/diegodorgam) |
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">D</span> | dudaa28 | — |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/122986/avatar.png?v=1791461400" alt="" width="32" height="32" loading="lazy"> | Eduardo Nunes | [@Edu_25](https://gitlab.com/Edu_25) |
-| <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">E</span> | EmivaltoJrr | — |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/6033538/avatar.png?v=1791504169" alt="" width="32" height="32" loading="lazy"> | Eric Silveira | [@eric.bky](https://gitlab.com/eric.bky) |
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">FB</span> | Fernando Blat | — |
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">FF</span> | Francisco Ferreira | [@francisco1code](https://gitlab.com/francisco1code) |
@@ -62,7 +59,6 @@ A foto vem do GitLab e, quando não há, do Notion. Contatos e outros dados pess
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">GG</span> | Gustavo Gontijo | [@Guga301104](https://gitlab.com/Guga301104) |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/9349472/avatar.png?v=1791639200" alt="" width="32" height="32" loading="lazy"> | Gustavo Henrique | [@gustavohenriqueprivado](https://gitlab.com/gustavohenriqueprivado) |
 | <img class="bp-avatar" src="https://secure.gravatar.com/avatar/b551ec9b94e3772f1cbd46989a8061ae86d805e9d407e3af4a81967a80976b73?s=80&amp;d=identicon" alt="" width="32" height="32" loading="lazy"> | Hadrien Froger | [@hadrien_froger](https://gitlab.com/hadrien_froger) |
-| <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">H</span> | hfroger | — |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/220971/avatar.png?v=1788977032" alt="" width="32" height="32" loading="lazy"> | Isaque Alves | [@alvesisaque](https://gitlab.com/alvesisaque) |
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">J</span> | Joao | — |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/220902/avatar.png?v=1785936818" alt="" width="32" height="32" loading="lazy"> | João Egewarth | [@egewarth](https://gitlab.com/egewarth) |
@@ -109,7 +105,6 @@ A foto vem do GitLab e, quando não há, do Notion. Contatos e outros dados pess
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/3692052/avatar.png?v=1789025702" alt="" width="32" height="32" loading="lazy"> | Paulo Gonçalves Lima | [@PauloGoncalvesLima](https://gitlab.com/PauloGoncalvesLima) |
 | <img class="bp-avatar" src="https://gitlab.com/uploads/-/system/user/avatar/136987/avatar.png?v=1791331345" alt="" width="32" height="32" loading="lazy"> | Paulo Tada | [@paulohtfs](https://gitlab.com/paulohtfs) |
 | <img class="bp-avatar" src="../assets/equipe/pedro-burity.jpg" alt="" width="32" height="32" loading="lazy"> | Pedro Burity | — |
-| <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">P</span> | pinos | — |
 | <img class="bp-avatar" src="../assets/equipe/poppi.jpg" alt="" width="32" height="32" loading="lazy"> | Poppi | — |
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">RB</span> | Rafael Bosi | [@StrangeUnit28](https://gitlab.com/StrangeUnit28) |
 | <span class="bp-avatar bp-avatar--iniciais" aria-hidden="true">RD</span> | Rafael De Toni | — |

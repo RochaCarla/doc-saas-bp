@@ -47,7 +47,7 @@
 {#- >>> autoria (gerado por scripts/equipe.py; não edite à mão) -#}
 <div class="bp-front bp-front--autoria">
   <h2 class="bp-rosto__heading">Autoria e equipe</h2>
-  <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 126 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>
+  <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 121 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>
   <ul class="bp-autoria">
     <li>Alexandre Boava</li>
     <li>Ana Paula Tarchetti</li>
@@ -72,13 +72,10 @@
     <li>Dalva Santos</li>
     <li>Daniela s oliveira</li>
     <li>Danielle Soares</li>
-    <li>daniso0412</li>
-    <li>davi-aguiar-vieira</li>
     <li>David Carlos</li>
     <li>Diego Dorgam</li>
     <li>dudaa28</li>
     <li>Eduardo Nunes</li>
-    <li>EmivaltoJrr</li>
     <li>Eric Silveira</li>
     <li>Fernando Blat</li>
     <li>Francisco Ferreira</li>
@@ -99,7 +96,6 @@
     <li>Gustavo Gontijo</li>
     <li>Gustavo Henrique</li>
     <li>Hadrien Froger</li>
-    <li>hfroger</li>
     <li>Isaque Alves</li>
     <li>Joao</li>
     <li>João Egewarth</li>
@@ -146,7 +142,6 @@
     <li>Paulo Gonçalves Lima</li>
     <li>Paulo Tada</li>
     <li>Pedro Burity</li>
-    <li>pinos</li>
     <li>Poppi</li>
     <li>Rafael Bosi</li>
     <li>Rafael De Toni</li>
