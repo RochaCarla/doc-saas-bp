@@ -47,7 +47,7 @@
 {#- >>> autoria (gerado por scripts/equipe.py; não edite à mão) -#}
 <div class="bp-front bp-front--autoria">
   <h2 class="bp-rosto__heading">Autoria e equipe</h2>
-  <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 132 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>
+  <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 126 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>
   <ul class="bp-autoria">
     <li>Alexandre Boava</li>
     <li>Ana Paula Tarchetti</li>
@@ -96,7 +96,6 @@
     <li>Guilherme Carballal</li>
     <li>Guilherme Daniel Fernandes da Silva</li>
     <li>Guilherme Gusmão Nepomuceno</li>
-    <li>Gustavo</li>
     <li>Gustavo Gontijo</li>
     <li>Gustavo Henrique</li>
     <li>Hadrien Froger</li>
@@ -107,14 +106,12 @@
     <li>João Guilherme</li>
     <li>Joao Nobrega</li>
     <li>João Pedro Amoêdo</li>
-    <li>Joyce</li>
     <li>Joyce Dionizio</li>
     <li>Juan Pablo</li>
     <li>Juliana</li>
     <li>Kizia Fonseca</li>
     <li>Lablivre UnB</li>
     <li>Lana Vitória</li>
-    <li>Larissa</li>
     <li>Larissa Gomes Silva</li>
     <li>Laura Pinos</li>
     <li>Leonardo da Silva Gomes</li>
@@ -142,7 +139,6 @@
     <li>Matheus Miranda</li>
     <li>Matheus Moreira Beltrami</li>
     <li>Mayara Faria</li>
-    <li>Medeiros</li>
     <li>Miguel Arthur</li>
     <li>Nathalia Feitosa</li>
     <li>Participa Dev</li>
@@ -158,7 +154,6 @@
     <li>Raphael</li>
     <li>Raquel Eucaria</li>
     <li>Renam C. da Silva</li>
-    <li>Renan</li>
     <li>Renan Girão</li>
     <li>Renato Sampaio</li>
     <li>Roddas Cabral</li>
@@ -176,7 +171,6 @@
     <li>Vitor Borges</li>
     <li>Vitória Ferrari</li>
     <li>Wildemberg Sales</li>
-    <li>Will</li>
     <li>William Bernardo</li>
     <li>Wolfgang Stein</li>
     <li>Yan Guimarães</li>
