@@ -48,6 +48,7 @@ Toda afirmação técnica cita arquivo, linha ou commit. O que não tem fonte é
 | Transferência | Pacote de transferência: índice, inventário, operação, segurança, APIs, release, testes, atualização, sobrescritas (gerada), decisões, repasse |
 | Inovação | Índice, Participa, Participação multicanal e os catálogos de funcionalidades de cada projeto, com data e evidência por item |
 | Estatísticas | Resumo e cinco páginas por projeto (geradas) |
+| Equipe | Lista da equipe com foto, nome e perfil no GitLab, gerada por `scripts/equipe.py` a partir de `scripts/equipe.json` (página Equipe do portal de conhecimento); fora do e-book, que tem a página "Autoria e equipe" |
 | Sobre | Origem, licenças, uso de IA |
 
 ## 5. Geradores
@@ -71,7 +72,7 @@ Mesmo tema do `doc-bp`: tokens do Design System gov.br (`docs/stylesheets/custom
 
 ## 7. E-book
 
-Gerado do `/print_page/` pelo `scripts/gerar_pdf.cjs`: capa, folha de rosto com ficha técnica e "Como citar", página "Autoria e equipe" (nomes em ordem alfabética, gerados por `scripts/autores.py` a partir de `scripts/autores.json`, que vem da página Equipe do portal de conhecimento), apresentação, sumário, miolo numerado e contracapa (`overrides/print/`). Publicado como `documentacao-brasil-participativo-saas.pdf`.
+Gerado do `/print_page/` pelo `scripts/gerar_pdf.cjs`: capa, folha de rosto com ficha técnica e "Como citar", página "Autoria e equipe" (nomes em ordem alfabética, gerados por `scripts/equipe.py` a partir de `scripts/equipe.json`, que vem da página Equipe do portal de conhecimento), apresentação, sumário, miolo numerado e contracapa (`overrides/print/`). Publicado como `documentacao-brasil-participativo-saas.pdf`.
 
 ## 8. Build e publicação
 
@@ -83,7 +84,7 @@ MkDocs `>=1.6,<2`, Material 9.7.7 e `mkdocs-print-site-plugin` 2.9, fixos no `Do
 
 | ID | Requisito |
 |---|---|
-| RF01 | O site DEVE organizar o conteúdo nas seis abas da § 4. |
+| RF01 | O site DEVE organizar o conteúdo nas sete abas da § 4. |
 | RF02 | O site DEVE oferecer busca em português em todo o conteúdo. |
 | RF03 | Toda página, exceto a home, DEVE ter o rodapé de página com reportar problema, baixar PDF e sugerir edição. |
 | RF04 | O e-book DEVE conter todas as páginas do site, exceto a home, na estrutura da § 7. |
@@ -111,7 +112,7 @@ MkDocs `>=1.6,<2`, Material 9.7.7 e `mkdocs-print-site-plugin` 2.9, fixos no `Do
 
 | ID | Critério verificável |
 |---|---|
-| RF01 | O `nav:` do `mkdocs.yml` tem exatamente as seis abas da § 4. |
+| RF01 | O `nav:` do `mkdocs.yml` tem exatamente as sete abas da § 4. |
 | RF02 | Buscar "organização" retorna o Glossário e Multi-organização. |
 | RF03 | O HTML de qualquer página, exceto `/`, contém `bp-page-footer` com os três links. |
 | RF04 | `./scripts/pdf.sh` termina com "PDF gerado"; a primeira página é a capa e a última, a contracapa. |

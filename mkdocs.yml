@@ -139,6 +139,7 @@ plugins:
       path_to_pdf: https://rochacarla.github.io/doc-saas-bp/documentacao-brasil-participativo-saas.pdf
       exclude:
         - index.md
+        - equipe/index.md
 
 markdown_extensions:
   - abbr
@@ -259,6 +260,7 @@ nav:
       - Merge Requests: estatisticas/multicanal/merge-requests.md
       - Contribuições: estatisticas/multicanal/contribuicoes.md
       - Qualidade: estatisticas/multicanal/qualidade.md
+  - Equipe: equipe/index.md
   - Sobre:
     - sobre/index.md
     - Uso de IA: sobre/uso-de-ia.md

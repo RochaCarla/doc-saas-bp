@@ -1,0 +1,799 @@
+{
+ "fonte": "Equipe do portal de conhecimento (Notion + Git)",
+ "gerado": "2026-10-10T21:17:24+00:00",
+ "fotos": "docs/portal/equipe/fotos/",
+ "pessoas": [
+  {
+   "nome": "Alexandre Boava",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Ana Paula Tarchetti",
+   "foto": null,
+   "usuario": "atarchetti",
+   "perfil": "https://gitlab.com/atarchetti"
+  },
+  {
+   "nome": "Anna e só",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Arthur Jahn",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/95802/avatar.png?v=1791511574",
+   "usuario": "ArthurJahn",
+   "perfil": "https://gitlab.com/ArthurJahn"
+  },
+  {
+   "nome": "Arthur Lima",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/6826043/avatar.png?v=1787765007",
+   "usuario": "arthurlima544",
+   "perfil": "https://gitlab.com/arthurlima544"
+  },
+  {
+   "nome": "Arthur Melo",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/18652769/avatar.png?v=1791550225",
+   "usuario": "Arthrok",
+   "perfil": "https://gitlab.com/Arthrok"
+  },
+  {
+   "nome": "Artur Ricardo",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/7343086/avatar.png?v=1789067867",
+   "usuario": "algorithmorphic",
+   "perfil": "https://gitlab.com/algorithmorphic"
+  },
+  {
+   "nome": "Artur Seppa Reiman",
+   "foto": null,
+   "usuario": "artur-seppa",
+   "perfil": "https://gitlab.com/artur-seppa"
+  },
+  {
+   "nome": "Blas Eduardo",
+   "foto": "blas-eduardo.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Breno Yuri",
+   "foto": "breno-yuri.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Bruna Pinos",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/684195/avatar.png?v=1791222966",
+   "usuario": "brunapinos",
+   "perfil": "https://gitlab.com/brunapinos"
+  },
+  {
+   "nome": "Caetano Santos",
+   "foto": "caetano-santos.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Caio Duarte",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/27289174/avatar.png?v=1791647607",
+   "usuario": "CaioDuart3",
+   "perfil": "https://gitlab.com/CaioDuart3"
+  },
+  {
+   "nome": "Caio Flôres",
+   "foto": null,
+   "usuario": "caiocflores",
+   "perfil": "https://gitlab.com/caiocflores"
+  },
+  {
+   "nome": "Caio Rocha de Oliveira",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/29191913/avatar.png?v=1791590442",
+   "usuario": "Dexmachi",
+   "perfil": "https://gitlab.com/Dexmachi"
+  },
+  {
+   "nome": "Carla Rocha",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/477515/avatar.png?v=1791662063",
+   "usuario": "rocha.carla",
+   "perfil": "https://gitlab.com/rocha.carla"
+  },
+  {
+   "nome": "Carol",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Carolina Barbosa",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/15240142/avatar.png?v=1789097668",
+   "usuario": "CarolinaBarb",
+   "perfil": "https://gitlab.com/CarolinaBarb"
+  },
+  {
+   "nome": "Cibelly Lourenço",
+   "foto": "cibelly-lourenco.jpg",
+   "usuario": "cibelinda",
+   "perfil": "https://gitlab.com/cibelinda"
+  },
+  {
+   "nome": "Cristiane Naves Cardoso",
+   "foto": "https://secure.gravatar.com/avatar/219b2703325e77e9e80c9a38e48fa3fbb0262759dacc394bcd53557cbdef729b?s=80&d=identicon",
+   "usuario": "CristianeNaves",
+   "perfil": "https://gitlab.com/CristianeNaves"
+  },
+  {
+   "nome": "Dalva Santos",
+   "foto": "dalva-santos.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Daniela s oliveira",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/3764496/avatar.png?v=1789026520",
+   "usuario": "daniela0412",
+   "perfil": "https://gitlab.com/daniela0412"
+  },
+  {
+   "nome": "Danielle Soares",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/39004627/avatar.png?v=1791495917",
+   "usuario": "silvasoaresdanielle2",
+   "perfil": "https://gitlab.com/silvasoaresdanielle2"
+  },
+  {
+   "nome": "daniso0412",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "davi-aguiar-vieira",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "David Carlos",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/10554/avatar.png?v=1791590462",
+   "usuario": "davidCarlos",
+   "perfil": "https://gitlab.com/davidCarlos"
+  },
+  {
+   "nome": "Diego Dorgam",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/1188613/avatar.png?v=1789012487",
+   "usuario": "diegodorgam",
+   "perfil": "https://gitlab.com/diegodorgam"
+  },
+  {
+   "nome": "dudaa28",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Eduardo Nunes",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/122986/avatar.png?v=1791461400",
+   "usuario": "Edu_25",
+   "perfil": "https://gitlab.com/Edu_25"
+  },
+  {
+   "nome": "EmivaltoJrr",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Eric Silveira",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/6033538/avatar.png?v=1791504169",
+   "usuario": "eric.bky",
+   "perfil": "https://gitlab.com/eric.bky"
+  },
+  {
+   "nome": "Fernando Blat",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Francisco Ferreira",
+   "foto": null,
+   "usuario": "francisco1code",
+   "perfil": "https://gitlab.com/francisco1code"
+  },
+  {
+   "nome": "Gabriel Costa de Oliveira",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Gabriel Sabanai",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Gabriel Scheidt",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/21632043/avatar.png?v=1791552147",
+   "usuario": "Gxaite",
+   "perfil": "https://gitlab.com/Gxaite"
+  },
+  {
+   "nome": "Gabriel Zaranza",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/11910825/avatar.png?v=1789089266",
+   "usuario": "GZaranza",
+   "perfil": "https://gitlab.com/GZaranza"
+  },
+  {
+   "nome": "Gabriela Alves",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/15310666/avatar.png?v=1789126956",
+   "usuario": "gaubiela",
+   "perfil": "https://gitlab.com/gaubiela"
+  },
+  {
+   "nome": "Genilson Silva De Araújo Junior",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/30889589/avatar.png?v=1791547231",
+   "usuario": "GenilsonJrs",
+   "perfil": "https://gitlab.com/GenilsonJrs"
+  },
+  {
+   "nome": "Geovane Freitas",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/12953022/avatar.png?v=1791491623",
+   "usuario": "GeovaneSFT",
+   "perfil": "https://gitlab.com/GeovaneSFT"
+  },
+  {
+   "nome": "Giovanni Alvissus",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Giovanni Giampauli",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/11176220/avatar.png?v=1790644964",
+   "usuario": "giovanniacg",
+   "perfil": "https://gitlab.com/giovanniacg"
+  },
+  {
+   "nome": "Gisele Pimenta",
+   "foto": "gisele-pimenta.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Guilherme Barbosa Ferreira",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/21879601/avatar.png?v=1752891667",
+   "usuario": "guibrbs1",
+   "perfil": "https://gitlab.com/guibrbs1"
+  },
+  {
+   "nome": "Guilherme Carballal",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Guilherme Daniel Fernandes da Silva",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/4452824/avatar.png?v=1791546204",
+   "usuario": "guilhermedfs14",
+   "perfil": "https://gitlab.com/guilhermedfs14"
+  },
+  {
+   "nome": "Guilherme Gusmão Nepomuceno",
+   "foto": null,
+   "usuario": "guilhermegusmao",
+   "perfil": "https://gitlab.com/guilhermegusmao"
+  },
+  {
+   "nome": "Gustavo",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Gustavo Gontijo",
+   "foto": null,
+   "usuario": "Guga301104",
+   "perfil": "https://gitlab.com/Guga301104"
+  },
+  {
+   "nome": "Gustavo Henrique",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/9349472/avatar.png?v=1791639200",
+   "usuario": "gustavohenriqueprivado",
+   "perfil": "https://gitlab.com/gustavohenriqueprivado"
+  },
+  {
+   "nome": "Hadrien Froger",
+   "foto": "https://secure.gravatar.com/avatar/b551ec9b94e3772f1cbd46989a8061ae86d805e9d407e3af4a81967a80976b73?s=80&d=identicon",
+   "usuario": "hadrien_froger",
+   "perfil": "https://gitlab.com/hadrien_froger"
+  },
+  {
+   "nome": "hfroger",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Isaque Alves",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/220971/avatar.png?v=1788977032",
+   "usuario": "alvesisaque",
+   "perfil": "https://gitlab.com/alvesisaque"
+  },
+  {
+   "nome": "Joao",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "João Egewarth",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/220902/avatar.png?v=1785936818",
+   "usuario": "egewarth",
+   "perfil": "https://gitlab.com/egewarth"
+  },
+  {
+   "nome": "João Guilherme",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/24629/avatar.png?v=1780498279",
+   "usuario": "joaaogui",
+   "perfil": "https://gitlab.com/joaaogui"
+  },
+  {
+   "nome": "Joao Nobrega",
+   "foto": null,
+   "usuario": "bot-do-jao",
+   "perfil": "https://gitlab.com/bot-do-jao"
+  },
+  {
+   "nome": "João Pedro Amoêdo",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/3173518/avatar.png?v=1789023220",
+   "usuario": "joao-amoedo",
+   "perfil": "https://gitlab.com/joao-amoedo"
+  },
+  {
+   "nome": "Joyce",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Joyce Dionizio",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/15232677/avatar.png?v=1755546533",
+   "usuario": "joyce.jdm",
+   "perfil": "https://gitlab.com/joyce.jdm"
+  },
+  {
+   "nome": "Juan Pablo",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/19682424/avatar.png?v=1789101033",
+   "usuario": "Juan-Ricarte",
+   "perfil": "https://gitlab.com/Juan-Ricarte"
+  },
+  {
+   "nome": "Juliana",
+   "foto": "juliana.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Kizia Fonseca",
+   "foto": "kizia-fonseca.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Lablivre UnB",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Lana Vitória",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Larissa",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Larissa Gomes Silva",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/18005914/avatar.png?v=1788796904",
+   "usuario": "larigs",
+   "perfil": "https://gitlab.com/larigs"
+  },
+  {
+   "nome": "Laura Pinos",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/14973538/avatar.png?v=1732467188",
+   "usuario": "laurapinos",
+   "perfil": "https://gitlab.com/laurapinos"
+  },
+  {
+   "nome": "Leonardo da Silva Gomes",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/2998542/avatar.png?v=1789671683",
+   "usuario": "LeoSilvaGomes",
+   "perfil": "https://gitlab.com/LeoSilvaGomes"
+  },
+  {
+   "nome": "Leonardo Lago Moreno",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/15571936/avatar.png?v=1791294161",
+   "usuario": "LeLaMo",
+   "perfil": "https://gitlab.com/LeLaMo"
+  },
+  {
+   "nome": "Leonardo M. Miranda",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/5593918/avatar.png?v=1791520714",
+   "usuario": "leomichalski",
+   "perfil": "https://gitlab.com/leomichalski"
+  },
+  {
+   "nome": "Letícia Hladczuk",
+   "foto": null,
+   "usuario": "hladczukle",
+   "perfil": "https://gitlab.com/hladczukle"
+  },
+  {
+   "nome": "Loana",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Luan Guimarães",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Lucas Guimarães",
+   "foto": "lucas-guimaraes.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Lucas Maretti",
+   "foto": null,
+   "usuario": "lucas.maretti",
+   "perfil": "https://gitlab.com/lucas.maretti"
+  },
+  {
+   "nome": "Lucas Pirola",
+   "foto": "https://secure.gravatar.com/avatar/83559cf84403814a0f8a7fdae833f8b9243b425ef4d0ee04e5b288b98ae62a52?s=80&d=identicon",
+   "usuario": "lpirola",
+   "perfil": "https://gitlab.com/lpirola"
+  },
+  {
+   "nome": "Lucas Sousa",
+   "foto": "lucas-sousa.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Lucca Medeiros",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/12931902/avatar.png?v=1791295249",
+   "usuario": "luccameds",
+   "perfil": "https://gitlab.com/luccameds"
+  },
+  {
+   "nome": "Luiza Davison",
+   "foto": "luiza-davison.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Maicon Mares",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/3764488/avatar.png?v=1790776921",
+   "usuario": "maiconmares",
+   "perfil": "https://gitlab.com/maiconmares"
+  },
+  {
+   "nome": "Manoel Felipe",
+   "foto": null,
+   "usuario": "Manoel835",
+   "perfil": "https://gitlab.com/Manoel835"
+  },
+  {
+   "nome": "Marcus Martins",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/15683692/avatar.png?v=1791550128",
+   "usuario": "marcusmartinss",
+   "perfil": "https://gitlab.com/marcusmartinss"
+  },
+  {
+   "nome": "Maria Clara Guimarães",
+   "foto": "maria-clara-guimaraes.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Maria Eduarda",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/21171534/avatar.png?v=1791593743",
+   "usuario": "eduardaq2805",
+   "perfil": "https://gitlab.com/eduardaq2805"
+  },
+  {
+   "nome": "Maria Vitoria Duarte",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Marina Alves",
+   "foto": "marina-alves.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Mateus Cavalcante",
+   "foto": "mateus-cavalcante.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Mateus de Castro",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/22261742/avatar.png?v=1791420512",
+   "usuario": "mat054",
+   "perfil": "https://gitlab.com/mat054"
+  },
+  {
+   "nome": "Matheus Carvalho",
+   "foto": null,
+   "usuario": "math_scarvalho",
+   "perfil": "https://gitlab.com/math_scarvalho"
+  },
+  {
+   "nome": "Matheus Miranda",
+   "foto": null,
+   "usuario": "MatheusMiranda",
+   "perfil": "https://gitlab.com/MatheusMiranda"
+  },
+  {
+   "nome": "Matheus Moreira Beltrami",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/14771355/avatar.png?v=1780498346",
+   "usuario": "MBeltrami_dex",
+   "perfil": "https://gitlab.com/MBeltrami_dex"
+  },
+  {
+   "nome": "Mayara Faria",
+   "foto": "mayara-faria.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Medeiros",
+   "foto": null,
+   "usuario": "Medeiros",
+   "perfil": "https://gitlab.com/Medeiros"
+  },
+  {
+   "nome": "Miguel Arthur",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/24849299/avatar.png?v=1791210103",
+   "usuario": "zlimaz",
+   "perfil": "https://gitlab.com/zlimaz"
+  },
+  {
+   "nome": "Nathalia Feitosa",
+   "foto": "nathalia-feitosa.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Participa Dev",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Paula Ribeiro",
+   "foto": "paula-ribeiro.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Paulo Gonçalves Lima",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/3692052/avatar.png?v=1789025702",
+   "usuario": "PauloGoncalvesLima",
+   "perfil": "https://gitlab.com/PauloGoncalvesLima"
+  },
+  {
+   "nome": "Paulo Tada",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/136987/avatar.png?v=1791331345",
+   "usuario": "paulohtfs",
+   "perfil": "https://gitlab.com/paulohtfs"
+  },
+  {
+   "nome": "Pedro Burity",
+   "foto": "pedro-burity.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "pinos",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Poppi",
+   "foto": "poppi.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Rafael Bosi",
+   "foto": null,
+   "usuario": "StrangeUnit28",
+   "perfil": "https://gitlab.com/StrangeUnit28"
+  },
+  {
+   "nome": "Rafael De Toni",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Ranielder Freitas",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Raphael",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Raquel Eucaria",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/8161246/avatar.png?v=1788235055",
+   "usuario": "raqueleucaria",
+   "perfil": "https://gitlab.com/raqueleucaria"
+  },
+  {
+   "nome": "Renam C. da Silva",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Renan",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Renan Girão",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/20671536/avatar.png?v=1790165314",
+   "usuario": "RenanGirao",
+   "perfil": "https://gitlab.com/RenanGirao"
+  },
+  {
+   "nome": "Renato Sampaio",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/152087/avatar.png?v=1791655473",
+   "usuario": "renatocoral",
+   "perfil": "https://gitlab.com/renatocoral"
+  },
+  {
+   "nome": "Roddas Cabral",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Rodolfo Neves",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/11327880/avatar.png?v=1789087119",
+   "usuario": "roddas",
+   "perfil": "https://gitlab.com/roddas"
+  },
+  {
+   "nome": "Ronivaldo Júnior",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/4716812/avatar.png?v=1789582830",
+   "usuario": "junhfer",
+   "perfil": "https://gitlab.com/junhfer"
+  },
+  {
+   "nome": "Sandro Haddad",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Sérgio Granemann",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Suzane Duarte",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/18560432/avatar.png?v=1789099664",
+   "usuario": "ssuzane9",
+   "perfil": "https://gitlab.com/ssuzane9"
+  },
+  {
+   "nome": "Thais Rebouças de Araujo",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/3962597/avatar.png?v=1791592974",
+   "usuario": "Thais-ra",
+   "perfil": "https://gitlab.com/Thais-ra"
+  },
+  {
+   "nome": "Thalita Quelita",
+   "foto": "thalita-quelita.jpg",
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Victor Jorge da Silva Gonçalves",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/3836497/avatar.png?v=1791334269",
+   "usuario": "VictorJorgeFGA",
+   "perfil": "https://gitlab.com/VictorJorgeFGA"
+  },
+  {
+   "nome": "Vinicius Oliveira",
+   "foto": null,
+   "usuario": "ViniciussdeOliveira",
+   "perfil": "https://gitlab.com/ViniciussdeOliveira"
+  },
+  {
+   "nome": "Vinícius Ribeiro",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/30672591/avatar.png?v=1791487601",
+   "usuario": "viniiribeiro",
+   "perfil": "https://gitlab.com/viniiribeiro"
+  },
+  {
+   "nome": "Vitor Bellini",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Vitor Borges",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/14858311/avatar.png?v=1791200321",
+   "usuario": "VitorB2002",
+   "perfil": "https://gitlab.com/VitorB2002"
+  },
+  {
+   "nome": "Vitória Ferrari",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "Wildemberg Sales",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/15751233/avatar.png?v=1778632435",
+   "usuario": "wildemberg-sales",
+   "perfil": "https://gitlab.com/wildemberg-sales"
+  },
+  {
+   "nome": "Will",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  },
+  {
+   "nome": "William Bernardo",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/22564750/avatar.png?v=1791620075",
+   "usuario": "WillxBernardo",
+   "perfil": "https://gitlab.com/WillxBernardo"
+  },
+  {
+   "nome": "Wolfgang Stein",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/20541195/avatar.png?v=1765994941",
+   "usuario": "Wolffstein",
+   "perfil": "https://gitlab.com/Wolffstein"
+  },
+  {
+   "nome": "Yan Guimarães",
+   "foto": "https://gitlab.com/uploads/-/system/user/avatar/20489659/avatar.png?v=1790958808",
+   "usuario": "yanzin00",
+   "perfil": "https://gitlab.com/yanzin00"
+  },
+  {
+   "nome": "Yuri Ricarte",
+   "foto": null,
+   "usuario": null,
+   "perfil": null
+  }
+ ]
+}

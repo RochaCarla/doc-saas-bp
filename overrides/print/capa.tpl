@@ -44,7 +44,7 @@
   <p class="bp-rosto__cite">LABLIVRE. <strong>Brasil Participativo SaaS</strong>: documentação técnica do Participa e da participação multicanal. Brasília: Universidade de Brasília, <span class="bp-year">2026</span>. Disponível em: {{ config.site_url }}. Acesso em: <span class="bp-access">—</span>.</p>
 </div>
 
-{#- >>> autoria (gerado por scripts/autores.py; não edite à mão) -#}
+{#- >>> autoria (gerado por scripts/equipe.py; não edite à mão) -#}
 <div class="bp-front bp-front--autoria">
   <h2 class="bp-rosto__heading">Autoria e equipe</h2>
   <p>A autoria institucional é do Laboratório de Competência em Software Livre (LabLivre) da Universidade de Brasília. Esta é a equipe que faz o Brasil Participativo, em ordem alfabética: 132 pessoas, entre as registradas na base Integrantes da Equipe, no Notion, e as que contribuíram com código nos repositórios do grupo <code>lappis-unb/decidimbr</code>, no GitLab.</p>

@@ -38,7 +38,7 @@ python3 scripts/estatisticas.py                                   # docs/estatis
 python3 scripts/banco_de_dados.py --out docs/participa/banco-de-dados   # Participa data dictionary (except consultas.md)
 python3 scripts/sobrescritas.py                                   # docs/transferencia/sobrescritas.md (vs Decidim v0.32.1)
 python3 scripts/glossario.py                                      # docs/visao-geral/glossario.md (from CONTEXT.md)
-python3 scripts/autores.py                                        # e-book "Autoria e equipe" page in overrides/print/capa.tpl (from scripts/autores.json, copied from the knowledge portal)
+python3 scripts/equipe.py                                         # docs/equipe/index.md and the e-book "Autoria e equipe" page (from scripts/equipe.json + docs/assets/equipe/, copied from the knowledge portal)
 ```
 
 No tests or linter configured in this repo. CI runs `mkdocs build --strict` (versions pinned in `.github/workflows/deploy.yml`, MkDocs < 2) on push to main and deploys to GitHub Pages.
@@ -47,7 +47,7 @@ No tests or linter configured in this repo. CI runs `mkdocs build --strict` (ver
 
 - **Config**: `mkdocs.yml` — nav, theme, plugins, `extra.institucional` (footer)
 - **Content**: `docs/` — `visao-geral/`, `participa/`, `multicanal/`, `transferencia/`, `inovacao/`, `estatisticas/`, `sobre/`
-- **Generated pages** (never edit by hand): `docs/estatisticas/**`, `docs/participa/banco-de-dados/*` (except `consultas.md`), `docs/transferencia/sobrescritas.md`, `docs/visao-geral/glossario.md`
+- **Generated pages** (never edit by hand): `docs/estatisticas/**`, `docs/participa/banco-de-dados/*` (except `consultas.md`), `docs/transferencia/sobrescritas.md`, `docs/equipe/index.md`, `docs/visao-geral/glossario.md`
 - **Theme**: gov.br Design System tokens in `docs/stylesheets/custom.css`; `overrides/` for announcement, page footer, institutional footer and e-book cover/back cover
 - **Deploy**: GitHub Actions → GitHub Pages at `rochacarla.github.io/doc-saas-bp`
 
@@ -55,7 +55,7 @@ No tests or linter configured in this repo. CI runs `mkdocs build --strict` (ver
 
 - **Language**: all content in Brazilian Portuguese (pt-BR)
 - **Commit messages**: Conventional Commits (`feat:`, `fix:`, `docs:`, `chore:`)
-- **Navigation**: any new page must be added to `nav:` in `mkdocs.yml`. Top tabs: Início, Documentação, Transferência, Inovação, Estatísticas, Sobre
+- **Navigation**: any new page must be added to `nav:` in `mkdocs.yml`. Top tabs: Início, Documentação, Transferência, Inovação, Estatísticas, Equipe, Sobre
 - **Evidence**: technical claims must cite a file, line or commit in the two repos; mark unknowns **a confirmar**; label performance claims measured or inferred
 - **Security**: never describe unfixed vulnerabilities on the site (ADR 0001); confidential issue drafts live in `dist/` (gitignored) and must never be committed
 - **Diagrams**: Mermaid, preferably vertical (`flowchart TB`)
