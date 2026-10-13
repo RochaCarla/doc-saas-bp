@@ -101,7 +101,7 @@ extra:
       - nome: Código da participação multicanal
         url: https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation
       - nome: Documentação do Brasil Participativo
-        url: https://lablivre-unb.github.io/doc-bp/
+        url: https://rochacarla.github.io/doc-bp/
       - nome: Baixar PDF
         url: https://rochacarla.github.io/doc-saas-bp/documentacao-brasil-participativo-saas.pdf
   social:

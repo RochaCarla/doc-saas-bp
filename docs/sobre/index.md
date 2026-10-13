@@ -11,7 +11,7 @@ Reunir, em um só lugar e em português, o conhecimento técnico sobre o Brasil 
 - **gestores de processos participativos** entendam órgãos e setores, participação efêmera, chatbot e roteiros de conversa;
 - a **equipe receptora** tenha o que precisa para a transferência de tecnologia.
 
-É uma documentação irmã da [documentação do Brasil Participativo](https://lablivre-unb.github.io/doc-bp/), com a mesma estrutura e as mesmas regras.
+É uma documentação irmã da [documentação do Brasil Participativo](https://rochacarla.github.io/doc-bp/), com a mesma estrutura e as mesmas regras.
 
 ## O que é o TED
 
@@ -26,7 +26,7 @@ O **Termo de Execução Descentralizada** é o instrumento pelo qual um órgão 
 | Gems do Brasil Participativo e `participa-gem`, nas revisões travadas no `Gemfile.lock` | Módulos, multi-organização |
 | Código do Decidim 0.32.1 | Inventário de sobrescritas e comportamento padrão |
 | API pública do GitLab | [Estatísticas](../estatisticas/index.md) |
-| [Documentação do Brasil Participativo](https://lablivre-unb.github.io/doc-bp/) | Comparações em [Inovação](../inovacao/index.md) |
+| [Documentação do Brasil Participativo](https://rochacarla.github.io/doc-bp/) | Comparações em [Inovação](../inovacao/index.md) |
 
 As informações refletem o código na data da coleta, outubro de 2026.
 

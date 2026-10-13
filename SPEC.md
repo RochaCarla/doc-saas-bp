@@ -1,6 +1,6 @@
 # Especificação — Documentação técnica do Brasil Participativo SaaS
 
-Especificação "como construída" desta documentação: escopo, fontes, geradores, e-book e requisitos com critérios de aceitação. A linguagem do domínio está no [CONTEXT.md](./CONTEXT.md). Esta documentação replica a estrutura da [documentação do Brasil Participativo](https://github.com/lablivre-unb/doc-bp), com as adaptações listadas na § 10.
+Especificação "como construída" desta documentação: escopo, fontes, geradores, e-book e requisitos com critérios de aceitação. A linguagem do domínio está no [CONTEXT.md](./CONTEXT.md). Esta documentação replica a estrutura da [documentação do Brasil Participativo](https://github.com/RochaCarla/doc-bp), com as adaptações listadas na § 10.
 
 Atualize este arquivo quando o escopo ou os requisitos mudarem.
 

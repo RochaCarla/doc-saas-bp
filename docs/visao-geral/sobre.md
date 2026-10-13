@@ -9,7 +9,7 @@ O **Brasil Participativo SaaS** leva a plataforma de participação do governo f
 
 ## Relação com o Brasil Participativo
 
-O [Brasil Participativo](https://brasilparticipativo.presidencia.gov.br/) é a plataforma nacional, mantida no core `decidim-govbr` (Decidim 0.27.2) e documentada em [lablivre-unb.github.io/doc-bp](https://lablivre-unb.github.io/doc-bp/).
+O [Brasil Participativo](https://brasilparticipativo.presidencia.gov.br/) é a plataforma nacional, mantida no core `decidim-govbr` (Decidim 0.27.2) e documentada em [rochacarla.github.io/doc-bp](https://rochacarla.github.io/doc-bp/).
 
 | | Brasil Participativo | Participa | Participação multicanal |
 |--|---------------------|-----------|------------------------|

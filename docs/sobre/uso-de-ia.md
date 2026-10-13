@@ -4,7 +4,7 @@ Esta documentação foi produzida com apoio de **inteligência artificial genera
 
 !!! info "Resumo"
     - **Ferramenta:** Claude Code (Anthropic), com o modelo **Claude Opus 5.5**, em outubro de 2026.
-    - **Papel da IA:** levantar informações no código, redigir as páginas, adaptar os scripts geradores e o tema visual da [documentação do Brasil Participativo](https://lablivre-unb.github.io/doc-bp/), e montar o e-book.
+    - **Papel da IA:** levantar informações no código, redigir as páginas, adaptar os scripts geradores e o tema visual da [documentação do Brasil Participativo](https://rochacarla.github.io/doc-bp/), e montar o e-book.
     - **Papel humano:** pedir a documentação, definir nome, endereço e licença, e decidir o que publicar.
     - **Responsabilidade:** o conteúdo é de responsabilidade da equipe do LabLivre/UnB, não da ferramenta.
 

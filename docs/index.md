@@ -119,6 +119,6 @@ Sobrescritas e tabelas: páginas geradas do código. Commits: [Estatísticas](es
 | Código do Participa | [gitlab.com/lappis-unb/decidimbr/participa](https://gitlab.com/lappis-unb/decidimbr/participa) |
 | Código da participação multicanal | [gitlab.com/lappis-unb/decidimbr/multi-channel-participation](https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation) |
 | Gems do Brasil Participativo | [components-brasil-participativo](https://gitlab.com/lappis-unb/decidimbr/components-brasil-participativo) |
-| Documentação do Brasil Participativo | [lablivre-unb.github.io/doc-bp](https://lablivre-unb.github.io/doc-bp/) |
+| Documentação do Brasil Participativo | [rochacarla.github.io/doc-bp](https://rochacarla.github.io/doc-bp/) |
 | Decidim | [decidim.org](https://decidim.org/) · [documentação oficial](https://docs.decidim.org/) |
 | Sobre esta documentação | [LabLivre/UnB e TED com a Secretaria](sobre/index.md) |

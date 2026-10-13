@@ -9,7 +9,7 @@ Documentation site for **Brasil Participativo SaaS**, made of two LabLivre/UnB p
 - **Participa** — multi-organization (one PostgreSQL schema per organization) platform on Decidim 0.32.1: [gitlab.com/lappis-unb/decidimbr/participa](https://gitlab.com/lappis-unb/decidimbr/participa)
 - **Participação multicanal** — API OP-BP (FastAPI), admin panel and participation app for WhatsApp and Telegram: [gitlab.com/lappis-unb/decidimbr/multi-channel-participation](https://gitlab.com/lappis-unb/decidimbr/multi-channel-participation)
 
-Sister site of the Brasil Participativo documentation ([lablivre-unb/doc-bp](https://github.com/lablivre-unb/doc-bp)), with the same structure, theme, generators and e-book.
+Sister site of the Brasil Participativo documentation ([RochaCarla/doc-bp](https://github.com/RochaCarla/doc-bp)), with the same structure, theme, generators and e-book.
 
 ## Spec and domain language
 
